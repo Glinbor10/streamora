@@ -145,7 +145,7 @@ class _MoviesContent extends ConsumerWidget {
               },
             ),
           ),
-        const SliverToBoxAdapter(child: SizedBox(height: 32)),
+        const SliverToBoxAdapter(child: SizedBox(height: shellBottomPadding)),
       ],
     );
   }

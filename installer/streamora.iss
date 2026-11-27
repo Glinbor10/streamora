@@ -12,6 +12,7 @@ DefaultDirName={autopf}\streamora
 DefaultGroupName=streamora
 OutputDir=..
 OutputBaseFilename=streamora-windows-{#Tag}-setup
+SetupIconFile=..\windows\runner\resources\app_icon.ico
 Compression=lzma2
 SolidCompression=yes
 ArchitecturesInstallIn64BitMode=x64compatible

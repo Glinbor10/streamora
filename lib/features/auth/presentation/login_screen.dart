@@ -2,6 +2,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:streamora/features/auth/domain/auth_failure.dart';
 import 'package:streamora/features/auth/presentation/auth_providers.dart';
+import 'package:streamora/shared/theme/app_theme.dart';
+import 'package:streamora/shared/widgets/logo.dart';
 
 /// Login form with a secondary Demo Mode button.
 class LoginScreen extends ConsumerStatefulWidget {
@@ -74,10 +76,19 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
+                  const Center(child: StreamoraLogo(size: 84)),
+                  const SizedBox(height: 16),
                   Text(
                     'streamora',
                     textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.displaySmall,
+                    style: Theme.of(context).textTheme.headlineMedium
+                        ?.copyWith(fontWeight: FontWeight.w800),
+                  ),
+                  const SizedBox(height: 4),
+                  const Text(
+                    'All your streams, one place.',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(color: AppColors.textMuted),
                   ),
                   const SizedBox(height: 32),
                   TextFormField(

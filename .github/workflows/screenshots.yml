@@ -5,6 +5,8 @@ on:
   pull_request:
     paths:
       - 'test/screenshots/**'
+      - 'test/brand/**'
+      - 'lib/**'
       - '.github/workflows/screenshots.yml'
 
 jobs:
@@ -17,9 +19,14 @@ jobs:
           channel: stable
           cache: true
       - run: flutter pub get
-      - name: Render screens with the demo catalog
-        run: SCREENSHOTS_DIR="$PWD/screens" flutter test test/screenshots
+      - name: Render screens and icons
+        run: |
+          SCREENSHOTS_DIR="$PWD/screens" ICONS_DIR="$PWD/brand"             flutter test test/screenshots test/brand
       - uses: actions/upload-artifact@v7
         with:
           name: screenshots
           path: screens/*.png
+      - uses: actions/upload-artifact@v7
+        with:
+          name: brand
+          path: brand/*.png

@@ -46,6 +46,7 @@ dependencies:
   xtream_code_client: ^2.0.1
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
   flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
@@ -90,3 +91,14 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/brand/icon-1024.png"
+  adaptive_icon_background: "#0A1128"
+  adaptive_icon_foreground: "assets/brand/icon-foreground-1024.png"
+  windows:
+    generate: true
+    image_path: "assets/brand/icon-1024.png"
+    icon_size: 256

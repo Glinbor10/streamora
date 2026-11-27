@@ -85,7 +85,7 @@ class _LiveContent extends ConsumerWidget {
           )
         else
           SliverPadding(
-            padding: const EdgeInsets.all(16),
+            padding: const EdgeInsets.fromLTRB(16, 16, 16, shellBottomPadding),
             sliver: SliverGrid.builder(
               gridDelegate: _channelGrid,
               itemCount: filtered.length,
