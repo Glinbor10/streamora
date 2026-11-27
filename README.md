@@ -4,6 +4,13 @@ Generic OTT player with a Netflix-style UI for **Android** and **Windows**, buil
 
 > Work in progress. No content is bundled; a **Demo Mode** with freely licensed Blender Foundation videos is planned.
 
+## Screenshots
+Captured from the real Windows build (v0.2.0).
+
+| Login |
+|---|
+| ![Login screen](docs/screenshots/login-windows.png) |
+
 ## Download
 Installable builds are published in [GitHub Releases](../../releases):
 - `streamora-android-vX.Y.Z.apk`
