@@ -5,11 +5,21 @@ Generic OTT player with a Netflix-style UI for **Android** and **Windows**, buil
 > Work in progress. No content is bundled; a **Demo Mode** with freely licensed Blender Foundation videos is planned.
 
 ## Screenshots
-Captured from the real Windows build (v0.2.0).
+Rendered from the real app code with the bundled **Demo Mode** catalog (fictional titles, generated artwork). They are produced in CI by [`test/screenshots`](test/screenshots/screenshots_test.dart), so they always match the current UI. Layouts shown: Windows (1280x800, navigation rail) and Android phone (412x892, bottom navigation).
 
-| Login |
-|---|
-| ![Login screen](docs/screenshots/login-windows.png) |
+### Windows
+| Movies | Movie detail |
+|---|---|
+| ![Movies](docs/screenshots/windows-2-movies.png) | ![Movie detail](docs/screenshots/windows-3-movie-detail.png) |
+| **Series** | **Live TV** |
+| ![Series](docs/screenshots/windows-5-series.png) | ![Live TV](docs/screenshots/windows-6-live.png) |
+
+### Android
+| Login | Movies | Movie detail | Series | Live TV |
+|---|---|---|---|---|
+| ![Login](docs/screenshots/android-1-login.png) | ![Movies](docs/screenshots/android-2-movies.png) | ![Movie detail](docs/screenshots/android-3-movie-detail.png) | ![Series](docs/screenshots/android-5-series.png) | ![Live TV](docs/screenshots/android-6-live.png) |
+
+> Playback is not wired yet (next release); the Play buttons show a notice.
 
 ## Download
 Installable builds are published in [GitHub Releases](../../releases):
