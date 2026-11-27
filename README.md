@@ -1,4 +1,6 @@
-# streamora
+<p align="center"><img src="docs/brand/logo.png" alt="streamora" width="120"></p>
+
+<h1 align="center">streamora</h1>
 
 Generic OTT player with a Netflix-style UI for **Android** and **Windows**, built with Flutter.
 
@@ -23,7 +25,7 @@ Rendered from the real app code with the bundled **Demo Mode** catalog (fictiona
 
 ## Download
 Installable builds are published in [GitHub Releases](../../releases):
-- `streamora-android-vX.Y.Z.apk`
+- `streamora-android-arm64-vX.Y.Z.apk` (most phones) and `streamora-android-armv7-vX.Y.Z.apk` (older 32-bit phones)
 - `streamora-windows-vX.Y.Z-setup.exe` (installer) and `...-portable.zip`
 
 ## Architecture
