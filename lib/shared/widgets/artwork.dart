@@ -52,7 +52,7 @@ class _Generated extends StatelessWidget {
       7,
       (h, c) => (h * 31 + c) & 0xFFFFFF,
     );
-    final hue = 195 + (hash % 100).toDouble();
+    final hue = 195 + (hash % 70).toDouble();
     final top = HSLColor.fromAHSL(1, hue, 0.55, 0.32).toColor();
     final bottom = HSLColor.fromAHSL(1, (hue + 30) % 360, 0.6, 0.12).toColor();
     return DecoratedBox(

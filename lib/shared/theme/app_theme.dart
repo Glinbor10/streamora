@@ -63,7 +63,9 @@ abstract final class AppTheme {
           foregroundColor: AppColors.onAccent,
           minimumSize: const Size(48, 48),
           shape: const StadiumBorder(),
-          textStyle: const TextStyle(fontWeight: FontWeight.w700),
+          textStyle: base.textTheme.labelLarge?.copyWith(
+            fontWeight: FontWeight.w700,
+          ),
         ),
       ),
       outlinedButtonTheme: OutlinedButtonThemeData(
@@ -72,7 +74,9 @@ abstract final class AppTheme {
           minimumSize: const Size(48, 48),
           shape: const StadiumBorder(),
           side: const BorderSide(color: AppColors.surfaceHigh, width: 1.5),
-          textStyle: const TextStyle(fontWeight: FontWeight.w600),
+          textStyle: base.textTheme.labelLarge?.copyWith(
+            fontWeight: FontWeight.w600,
+          ),
         ),
       ),
       chipTheme: ChipThemeData(

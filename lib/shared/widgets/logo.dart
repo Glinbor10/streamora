@@ -44,17 +44,11 @@ class LogoPainter extends CustomPainter {
     ..lineTo(80, 50)
     ..close();
 
-  static Path _wave(double y) {
-    final path = Path()..moveTo(18, y);
-    for (var i = 0; i < 4; i++) {
-      final x = 18 + i * 17.0;
-      path
-        ..relativeQuadraticBezierTo(4.25, i.isEven ? -9 : 9, 8.5, 0)
-        ..relativeQuadraticBezierTo(4.25, i.isEven ? 9 : -9, 8.5, 0);
-      if (x > 90) break;
-    }
-    return path;
-  }
+  /// One smooth sine period from x=36 to x=60, centered on [y].
+  static Path _wave(double y) => Path()
+    ..moveTo(36, y)
+    ..cubicTo(42, y - 8, 48, y - 8, 48, y)
+    ..cubicTo(48, y + 8, 54, y + 8, 60, y);
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -74,11 +68,11 @@ class LogoPainter extends CustomPainter {
     final wavePaint = Paint()
       ..color = waveColor
       ..style = PaintingStyle.stroke
-      ..strokeWidth = 4.5
+      ..strokeWidth = 3.6
       ..strokeCap = StrokeCap.round;
     canvas
-      ..drawPath(_wave(43), wavePaint)
-      ..drawPath(_wave(58), wavePaint)
+      ..drawPath(_wave(44), wavePaint)
+      ..drawPath(_wave(57), wavePaint)
       ..restore();
   }
 
