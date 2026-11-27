@@ -1,0 +1,25 @@
+name: Screenshots
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'test/screenshots/**'
+      - '.github/workflows/screenshots.yml'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - name: Render screens with the demo catalog
+        run: SCREENSHOTS_DIR="$PWD/screens" flutter test test/screenshots
+      - uses: actions/upload-artifact@v7
+        with:
+          name: screenshots
+          path: screens/*.png
