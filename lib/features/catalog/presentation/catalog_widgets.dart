@@ -75,15 +75,6 @@ class DomainCategoryChips extends StatelessWidget {
   );
 }
 
-/// Tells the user that playback is not wired yet.
-void showPlaybackSoon(BuildContext context) {
-  ScaffoldMessenger.of(context)
-    ..hideCurrentSnackBar()
-    ..showSnackBar(
-      const SnackBar(content: Text('Playback arrives in the next release.')),
-    );
-}
-
 /// Number of grid columns' max extent for poster grids.
 const posterGridDelegate = SliverGridDelegateWithMaxCrossAxisExtent(
   maxCrossAxisExtent: 170,

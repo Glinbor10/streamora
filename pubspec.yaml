@@ -37,7 +37,11 @@ dependencies:
   go_router: ^18.1.4
   http: ^1.6.0
   material_ui: ^1.1.0
+  media_kit: ^1.2.6
+  media_kit_libs_video: ^1.0.7
+  media_kit_video: ^2.0.1
   meta: ^1.19.0
+  shared_preferences: ^2.5.6
   skeletonizer: ^3.0.0
   xtream_code_client: ^2.0.1
 

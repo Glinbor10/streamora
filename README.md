@@ -19,7 +19,7 @@ Rendered from the real app code with the bundled **Demo Mode** catalog (fictiona
 |---|---|---|---|---|
 | ![Login](docs/screenshots/android-1-login.png) | ![Movies](docs/screenshots/android-2-movies.png) | ![Movie detail](docs/screenshots/android-3-movie-detail.png) | ![Series](docs/screenshots/android-5-series.png) | ![Live TV](docs/screenshots/android-6-live.png) |
 
-> Playback is not wired yet (next release); the Play buttons show a notice.
+> Demo Mode streams open Blender Foundation films (CC BY) as placeholders for every title.
 
 ## Download
 Installable builds are published in [GitHub Releases](../../releases):
@@ -37,6 +37,9 @@ flutter analyze --fatal-infos
 flutter test
 ```
 Changes are specified first with OpenSpec in `openspec/changes/`.
+
+## Credits
+Playback uses [media_kit](https://github.com/media-kit/media-kit) with the bundled [libmpv](https://mpv.io) (LGPL-2.1+), linked dynamically. Open demo videos by the [Blender Foundation](https://www.blender.org/about/projects/) (CC BY).
 
 ## License
 Proprietary, all rights reserved. The source is visible but may not be used, copied, modified, distributed or monetized without written permission. See [LICENSE](LICENSE).

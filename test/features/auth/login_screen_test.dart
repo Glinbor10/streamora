@@ -9,6 +9,8 @@ import 'package:streamora/features/auth/domain/credentials.dart';
 import 'package:streamora/features/auth/presentation/auth_providers.dart';
 import 'package:streamora/features/catalog/data/demo_catalog_repository.dart';
 import 'package:streamora/features/catalog/presentation/catalog_providers.dart';
+import 'package:streamora/features/player/data/prefs_progress_repository.dart';
+import 'package:streamora/features/player/presentation/player_providers.dart';
 import 'package:streamora/main.dart';
 
 import 'fakes.dart';
@@ -20,6 +22,12 @@ Future<void> pumpApp(
   await tester.pumpWidget(
     ProviderScope(
       overrides: [
+        progressRepositoryProvider.overrideWithValue(
+          PrefsProgressRepository(
+            reader: Future.value,
+            writer: (_) => Future.value(),
+          ),
+        ),
         authRepositoryProvider.overrideWithValue(repo),
         catalogRepositoryProvider.overrideWithValue(
           DemoCatalogRepository(

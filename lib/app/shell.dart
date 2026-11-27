@@ -1,5 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_ui/material_ui.dart';
+import 'package:streamora/app/continue_watching.dart';
 import 'package:streamora/features/auth/presentation/auth_providers.dart';
 import 'package:streamora/features/catalog/presentation/live_screen.dart';
 import 'package:streamora/features/catalog/presentation/movies_screen.dart';
@@ -27,9 +28,9 @@ class _AdaptiveShellState extends ConsumerState<AdaptiveShell> {
     (icon: Icons.tv_outlined, selected: Icons.tv, label: 'Series'),
   ];
 
-  static const List<ConsumerWidget> _screens = [
+  static const List<Widget> _screens = [
     LiveScreen(),
-    MoviesScreen(),
+    MoviesScreen(continueWatching: ContinueWatchingSection()),
     SeriesScreen(),
   ];
 

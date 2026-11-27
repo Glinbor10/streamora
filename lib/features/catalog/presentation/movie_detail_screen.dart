@@ -2,7 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:streamora/features/catalog/domain/media.dart';
 import 'package:streamora/features/catalog/presentation/catalog_providers.dart';
-import 'package:streamora/features/catalog/presentation/catalog_widgets.dart';
+import 'package:streamora/features/catalog/presentation/playback_targets.dart';
 import 'package:streamora/shared/theme/app_theme.dart';
 import 'package:streamora/shared/widgets/artwork.dart';
 import 'package:streamora/shared/widgets/layout.dart';
@@ -76,7 +76,10 @@ class MovieDetailScreen extends ConsumerWidget {
                 Text(meta, style: const TextStyle(color: AppColors.textMuted)),
                 const SizedBox(height: 16),
                 FilledButton.icon(
-                  onPressed: () => showPlaybackSoon(context),
+                  onPressed: () => play(
+                    context,
+                    movieTarget(ref.read(catalogRepositoryProvider), movie),
+                  ),
                   icon: const Icon(Icons.play_arrow),
                   label: const Text('Play'),
                 ),
