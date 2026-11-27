@@ -1,0 +1,20 @@
+{
+  "license": "All titles are open movies by the Blender Foundation, released under Creative Commons Attribution (CC BY).",
+  "items": [
+    {
+      "title": "Big Buck Bunny",
+      "year": 2008,
+      "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    },
+    {
+      "title": "Sintel (trailer)",
+      "year": 2010,
+      "url": "https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4"
+    },
+    {
+      "title": "Elephants Dream",
+      "year": 2006,
+      "url": "https://download.blender.org/ED/ed_hd.avi"
+    }
+  ]
+}
