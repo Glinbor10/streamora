@@ -28,7 +28,8 @@ Future<void> pumpDemo(WidgetTester tester, Size size) async {
         ),
         catalogRepositoryProvider.overrideWithValue(
           DemoCatalogRepository(
-            () => File('assets/demo/demo.json').readAsString(),
+            () =>
+                Future.value(File('assets/demo/demo.json').readAsStringSync()),
           ),
         ),
       ],

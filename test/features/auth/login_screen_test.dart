@@ -23,7 +23,8 @@ Future<void> pumpApp(
         authRepositoryProvider.overrideWithValue(repo),
         catalogRepositoryProvider.overrideWithValue(
           DemoCatalogRepository(
-            () => File('assets/demo/demo.json').readAsString(),
+            () =>
+                Future.value(File('assets/demo/demo.json').readAsStringSync()),
           ),
         ),
       ],
