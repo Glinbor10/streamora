@@ -4,7 +4,7 @@
 
 Generic OTT player with a Netflix-style UI for **Android** and **Windows**, built with Flutter.
 
-> Work in progress. No content is bundled; a **Demo Mode** with freely licensed Blender Foundation videos is planned.
+> No content is bundled. Try it right away with **Demo Mode** (fictional catalog; streams are open Blender Foundation films), or sign in with your own Xtream account.
 
 ## Screenshots
 Rendered from the real app code with the bundled **Demo Mode** catalog (fictional titles, generated artwork). They are produced in CI by [`test/screenshots`](test/screenshots/screenshots_test.dart), so they always match the current UI. Layouts shown: Windows (1280x800, navigation rail) and Android phone (412x892, bottom navigation).
