@@ -4,6 +4,8 @@ import 'package:material_ui/material_ui.dart';
 import 'package:streamora/app/shell.dart';
 import 'package:streamora/features/auth/presentation/auth_providers.dart';
 import 'package:streamora/features/auth/presentation/login_screen.dart';
+import 'package:streamora/features/player/domain/playback.dart';
+import 'package:streamora/features/player/presentation/player_screen.dart';
 
 /// Application router with an authentication guard.
 final routerProvider = Provider<GoRouter>((ref) {
@@ -30,6 +32,11 @@ final routerProvider = Provider<GoRouter>((ref) {
       ),
       GoRoute(path: '/login', builder: (_, _) => const LoginScreen()),
       GoRoute(path: '/', builder: (_, _) => const AdaptiveShell()),
+      GoRoute(
+        path: '/player',
+        builder: (_, state) =>
+            PlayerScreen(target: state.extra! as PlaybackTarget),
+      ),
     ],
   );
 });

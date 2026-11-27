@@ -1,6 +1,7 @@
 // Renders the real app screens with the demo catalog to PNG files.
 //
 // Skipped unless SCREENSHOTS_DIR is set (see .github/workflows/screenshots.yml).
+import 'dart:convert';
 import 'dart:io';
 import 'dart:ui' as ui;
 
@@ -13,6 +14,8 @@ import 'package:streamora/features/auth/data/xtream_auth_repository.dart';
 import 'package:streamora/features/auth/presentation/auth_providers.dart';
 import 'package:streamora/features/catalog/data/demo_catalog_repository.dart';
 import 'package:streamora/features/catalog/presentation/catalog_providers.dart';
+import 'package:streamora/features/player/data/prefs_progress_repository.dart';
+import 'package:streamora/features/player/presentation/player_providers.dart';
 import 'package:streamora/main.dart';
 
 import '../features/auth/fakes.dart';
@@ -57,6 +60,31 @@ Future<void> _loadFonts(WidgetTester tester) async {
   });
 }
 
+String _seededProgress() => jsonEncode([
+  {
+    'key': 'movie:2',
+    'kind': 'movie',
+    'id': 2,
+    'title': 'Sintel',
+    'subtitle': null,
+    'seriesId': null,
+    'positionMs': 360000,
+    'durationMs': 900000,
+    'updatedAtMs': 2,
+  },
+  {
+    'key': 'movie:3',
+    'kind': 'movie',
+    'id': 3,
+    'title': 'Elephants Dream',
+    'subtitle': null,
+    'seriesId': null,
+    'positionMs': 150000,
+    'durationMs': 660000,
+    'updatedAtMs': 1,
+  },
+]);
+
 Future<void> _pump(WidgetTester tester, Size size, double dpr) async {
   tester.view
     ..physicalSize = size * dpr
@@ -65,6 +93,12 @@ Future<void> _pump(WidgetTester tester, Size size, double dpr) async {
   await tester.pumpWidget(
     ProviderScope(
       overrides: [
+        progressRepositoryProvider.overrideWithValue(
+          PrefsProgressRepository(
+            reader: () => Future.value(_seededProgress()),
+            writer: (_) => Future.value(),
+          ),
+        ),
         authRepositoryProvider.overrideWithValue(
           XtreamAuthRepository(
             store: FakeCredentialStore(),

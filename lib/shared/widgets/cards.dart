@@ -11,6 +11,7 @@ class PosterCard extends StatelessWidget {
     this.imageUrl,
     this.subtitle,
     this.width = 140,
+    this.progress,
     super.key,
   });
 
@@ -25,6 +26,9 @@ class PosterCard extends StatelessWidget {
 
   /// Card width; height follows the 2:3 ratio.
   final double width;
+
+  /// Watched fraction (0 to 1) shown as a bar, or null for none.
+  final double? progress;
 
   /// Called when the card is tapped.
   final VoidCallback onTap;
@@ -43,7 +47,23 @@ class PosterCard extends StatelessWidget {
               aspectRatio: 2 / 3,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
-                child: Artwork(title: title, imageUrl: imageUrl),
+                child: Stack(
+                  fit: StackFit.expand,
+                  children: [
+                    Artwork(title: title, imageUrl: imageUrl),
+                    if (progress != null)
+                      Positioned(
+                        left: 0,
+                        right: 0,
+                        bottom: 0,
+                        child: LinearProgressIndicator(
+                          value: progress,
+                          minHeight: 4,
+                          backgroundColor: Colors.black54,
+                        ),
+                      ),
+                  ],
+                ),
               ),
             ),
             const SizedBox(height: 8),

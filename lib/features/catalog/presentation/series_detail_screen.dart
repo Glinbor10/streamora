@@ -2,7 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:streamora/features/catalog/domain/media.dart';
 import 'package:streamora/features/catalog/presentation/catalog_providers.dart';
-import 'package:streamora/features/catalog/presentation/catalog_widgets.dart';
+import 'package:streamora/features/catalog/presentation/playback_targets.dart';
 import 'package:streamora/shared/theme/app_theme.dart';
 import 'package:streamora/shared/widgets/artwork.dart';
 import 'package:streamora/shared/widgets/cards.dart';
@@ -143,7 +143,14 @@ class _SeriesDetailState extends ConsumerState<SeriesDetailScreen> {
                         imageUrl: e.imageUrl,
                         duration: e.duration,
                         plot: e.plot,
-                        onTap: () => showPlaybackSoon(context),
+                        onTap: () => play(
+                          context,
+                          episodeTarget(
+                            ref.read(catalogRepositoryProvider),
+                            d,
+                            e,
+                          ),
+                        ),
                       ),
                     ),
                   const SizedBox(height: 32),

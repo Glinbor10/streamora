@@ -5,14 +5,18 @@ import 'package:streamora/features/catalog/domain/media.dart';
 import 'package:streamora/features/catalog/presentation/catalog_providers.dart';
 import 'package:streamora/features/catalog/presentation/catalog_widgets.dart';
 import 'package:streamora/features/catalog/presentation/movie_detail_screen.dart';
+import 'package:streamora/features/catalog/presentation/playback_targets.dart';
 import 'package:streamora/shared/theme/app_theme.dart';
 import 'package:streamora/shared/widgets/cards.dart';
 import 'package:streamora/shared/widgets/layout.dart';
 
 /// Movies: hero banner, rows by category, filter and search.
 class MoviesScreen extends ConsumerWidget {
-  /// Creates the screen.
-  const new({super.key});
+  /// Creates the screen. `continueWatching` is shown under the filters.
+  const new({this.continueWatching, super.key});
+
+  /// Optional section injected by the app (the Continue watching row).
+  final Widget? continueWatching;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -25,15 +29,16 @@ class MoviesScreen extends ConsumerWidget {
       ),
       data: (all) => all.isEmpty
           ? const EmptyView(message: 'No movies available.')
-          : _MoviesContent(all: all),
+          : _MoviesContent(all: all, continueWatching: continueWatching),
     );
   }
 }
 
 class _MoviesContent extends ConsumerWidget {
-  const new({required this.all});
+  const new({required this.all, this.continueWatching});
 
   final List<Movie> all;
+  final Widget? continueWatching;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -67,7 +72,10 @@ class _MoviesContent extends ConsumerWidget {
                 if (featured.genre != null) featured.genre!,
               ].join('  ·  '),
               plot: featured.plot,
-              onPlay: () => showPlaybackSoon(context),
+              onPlay: () => play(
+                context,
+                movieTarget(ref.read(catalogRepositoryProvider), featured),
+              ),
               onInfo: () => open(featured),
             ),
           )
@@ -87,6 +95,8 @@ class _MoviesContent extends ConsumerWidget {
             onSelected: notifier.selectCategory,
           ),
         ),
+        if (query.isEmpty && continueWatching != null)
+          SliverToBoxAdapter(child: continueWatching),
         if (query.isEmpty)
           SliverList.builder(
             itemCount: categories.length,

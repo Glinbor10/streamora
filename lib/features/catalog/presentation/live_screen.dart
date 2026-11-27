@@ -4,6 +4,7 @@ import 'package:skeletonizer/skeletonizer.dart';
 import 'package:streamora/features/catalog/domain/media.dart';
 import 'package:streamora/features/catalog/presentation/catalog_providers.dart';
 import 'package:streamora/features/catalog/presentation/catalog_widgets.dart';
+import 'package:streamora/features/catalog/presentation/playback_targets.dart';
 import 'package:streamora/shared/theme/app_theme.dart';
 import 'package:streamora/shared/widgets/cards.dart';
 import 'package:streamora/shared/widgets/layout.dart';
@@ -93,7 +94,10 @@ class _LiveContent extends ConsumerWidget {
                 return ChannelCard(
                   title: c.title,
                   logoUrl: c.logoUrl,
-                  onTap: () => showPlaybackSoon(context),
+                  onTap: () => play(
+                    context,
+                    liveTarget(ref.read(catalogRepositoryProvider), c),
+                  ),
                 );
               },
             ),
