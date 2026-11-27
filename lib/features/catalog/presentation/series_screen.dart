@@ -76,7 +76,7 @@ class _SeriesContent extends ConsumerWidget {
                   imageUrl: s.coverUrl,
                   subtitle: [
                     if (s.year != null) s.year!,
-                    if (s.rating != null) '★ ${s.rating!.toStringAsFixed(1)}',
+                    if (s.rating != null) '${s.rating!.toStringAsFixed(1)}/10',
                   ].join('  ·  '),
                   onTap: () => Navigator.of(context).push(
                     MaterialPageRoute<void>(

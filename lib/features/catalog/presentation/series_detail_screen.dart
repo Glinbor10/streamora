@@ -30,7 +30,7 @@ class _SeriesDetailState extends ConsumerState<SeriesDetailScreen> {
     final isWide = MediaQuery.sizeOf(context).width >= desktopBreakpoint;
     final meta = [
       if (series.year != null) series.year!,
-      if (series.rating != null) '★ ${series.rating!.toStringAsFixed(1)}',
+      if (series.rating != null) '${series.rating!.toStringAsFixed(1)}/10',
       if (series.genre != null) series.genre!,
     ].join('  ·  ');
 
