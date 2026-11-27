@@ -6,9 +6,9 @@ import 'dart:ui' as ui;
 
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:streamora/features/auth/data/xtream_auth_repository.dart';
 import 'package:streamora/features/auth/presentation/auth_providers.dart';
 import 'package:streamora/features/catalog/data/demo_catalog_repository.dart';
@@ -115,23 +115,22 @@ void _suite(String platform, Size size, double dpr) {
     await tester.pumpAndSettle();
     await _shot(tester, '$platform-2-movies', dpr);
 
+    await tester.tap(find.text('More info'));
+    await tester.pumpAndSettle();
+    await _shot(tester, '$platform-3-movie-detail', dpr);
+    await tester.tap(find.byIcon(Icons.arrow_back));
+    await tester.pumpAndSettle();
+
     await _scrollDown(tester, size.height * 0.8);
-    await _shot(tester, '$platform-3-movies-rows', dpr);
+    await _shot(tester, '$platform-4-movies-rows', dpr);
 
     await tester.tap(find.text('Series').last);
     await tester.pumpAndSettle();
-    await _shot(tester, '$platform-4-series', dpr);
+    await _shot(tester, '$platform-5-series', dpr);
 
     await tester.tap(find.text('Live TV').last);
     await tester.pumpAndSettle();
-    await _shot(tester, '$platform-5-live', dpr);
-
-    await tester.tap(find.text('Movies').last);
-    await tester.pumpAndSettle();
-    await _scrollDown(tester, -size.height * 2);
-    await tester.tap(find.text('More info'));
-    await tester.pumpAndSettle();
-    await _shot(tester, '$platform-6-movie-detail', dpr);
+    await _shot(tester, '$platform-6-live', dpr);
   });
 }
 
