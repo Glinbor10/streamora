@@ -58,15 +58,19 @@ abstract final class AppTheme {
         indicatorColor: AppColors.accent.withValues(alpha: 0.25),
         selectedIconTheme: const IconThemeData(color: AppColors.text),
         unselectedIconTheme: const IconThemeData(color: AppColors.textMuted),
-        selectedLabelTextStyle: const TextStyle(color: AppColors.text),
-        unselectedLabelTextStyle: const TextStyle(color: AppColors.textMuted),
+        selectedLabelTextStyle: base.textTheme.labelMedium?.copyWith(
+          color: AppColors.text,
+        ),
+        unselectedLabelTextStyle: base.textTheme.labelMedium?.copyWith(
+          color: AppColors.textMuted,
+        ),
       ),
-      chipTheme: const ChipThemeData(
+      chipTheme: ChipThemeData(
         backgroundColor: AppColors.surfaceHigh,
         selectedColor: AppColors.accent,
-        labelStyle: TextStyle(color: AppColors.text),
+        labelStyle: base.textTheme.labelLarge?.copyWith(color: AppColors.text),
         side: BorderSide.none,
-        shape: StadiumBorder(),
+        shape: const StadiumBorder(),
       ),
       inputDecorationTheme: InputDecorationTheme(
         filled: true,

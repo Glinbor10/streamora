@@ -23,7 +23,7 @@ class MovieDetailScreen extends ConsumerWidget {
     final isWide = MediaQuery.sizeOf(context).width >= desktopBreakpoint;
     final meta = [
       if (movie.year != null) movie.year!,
-      if (movie.rating != null) '★ ${movie.rating!.toStringAsFixed(1)}',
+      if (movie.rating != null) '${movie.rating!.toStringAsFixed(1)}/10',
       ?genre,
       if (detail?.duration != null) detail!.duration!,
     ].join('  ·  ');

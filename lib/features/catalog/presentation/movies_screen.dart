@@ -63,7 +63,7 @@ class _MoviesContent extends ConsumerWidget {
               meta: [
                 if (featured.year != null) featured.year!,
                 if (featured.rating != null)
-                  '★ ${featured.rating!.toStringAsFixed(1)}',
+                  '${featured.rating!.toStringAsFixed(1)}/10',
                 if (featured.genre != null) featured.genre!,
               ].join('  ·  '),
               plot: featured.plot,
@@ -104,7 +104,8 @@ class _MoviesContent extends ConsumerWidget {
                     imageUrl: m.posterUrl,
                     subtitle: [
                       if (m.year != null) m.year!,
-                      if (m.rating != null) '★ ${m.rating!.toStringAsFixed(1)}',
+                      if (m.rating != null)
+                        '${m.rating!.toStringAsFixed(1)}/10',
                     ].join('  ·  '),
                     onTap: () => open(m),
                   );
