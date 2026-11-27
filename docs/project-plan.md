@@ -66,3 +66,9 @@ App reproductora OTT genérica con estética tipo Netflix para **Android móvil*
 - **Prohibido** escribir URLs reales de servidores IPTV, usuarios, contraseñas o keystores privados en el código, especificaciones OpenSpec, fixtures de test, ISSUES, PRs o capturas de pantalla.
 - Verificar que `git config user.email` usa el correo personal de GitHub y no el corporativo antes del primer commit.
 - Antes de hacer público el repositorio, ejecutar una búsqueda en todo el historial (`git log -p -S "..."`) para garantizar cero fugas de datos personales o de proveedor.
+---
+## Plan changes after phase 5 (agreed with the owner)
+- Brand colors: navy blue + electric cyan instead of red.
+- New logo (play made of waves) and app icon.
+- Modern navigation inspired by Trade Republic / Revolut (floating pill bar) and Stremio (content-first, slim rail).
+- Tracked in `openspec/changes/06-brand-and-modern-ui`.
