@@ -1,21 +1,33 @@
-MIT License
+streamora - Proprietary License (All Rights Reserved)
 
-Copyright (c) 2026 Guillermo Linares Borrego
+Copyright (c) 2026 Guillermo Linares Borrego. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This repository is published so that it can be viewed. Publishing it does
+NOT grant any license to use it.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Permitted without asking:
+  - Reading the source code on GitHub.
+  - Forking the repository on GitHub, as allowed by the GitHub Terms of
+    Service, for the sole purpose of viewing it and proposing changes to the
+    original repository through pull requests.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Not permitted without prior written permission from the copyright holder:
+  - Using, running or installing the software or its binaries.
+  - Copying, modifying, merging or creating derivative works.
+  - Distributing, publishing, sublicensing or selling the software or any
+    part of it, in source or binary form.
+  - Any commercial use or any use that generates revenue, directly or
+    indirectly.
+  - Using the name "streamora" or its branding.
+
+Contributions submitted by pull request are granted to the copyright holder
+under an irrevocable, perpetual, worldwide license to use them in this
+project.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE AUTHOR
+IS NOT LIABLE FOR ANY CLAIM OR DAMAGES ARISING FROM ITS USE.
+
+Third-party dependencies remain under their own licenses.
+
+To request permission: open an issue in this repository or contact the
+copyright holder through their GitHub profile (Glinbor10).

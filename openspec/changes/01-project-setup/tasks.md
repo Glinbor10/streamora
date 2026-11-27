@@ -1,5 +1,5 @@
 # Tasks
-1. [x] Create repo, Flutter project, LICENSE, .gitignore
+1. [x] Create repo, Flutter project, LICENSE (proprietary), .gitignore
 2. [x] CI + Release workflows, Inno Setup script
 3. [ ] Add very_good_analysis, fix analyze
 4. [ ] Add arch_test + test/architecture rules

@@ -7,7 +7,7 @@ Bootstrap the streamora repository: Flutter project (Android + Windows), layered
 Portfolio-grade public project. Quality gates must exist before features so architecture and releases stay clean.
 
 ## Scope
-- Flutter project, MIT license, lints, folder structure per feature.
+- Flutter project, lints, folder structure per feature.
 - Architecture tests (`arch_test`) run in CI.
 - CI: analyze, test, build Android + Windows on every PR.
 - Release workflow on `v*` tags: signed-if-secrets APK, Windows setup `.exe` and portable `.zip`, GitHub Release with generated notes.

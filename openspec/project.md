@@ -1,7 +1,7 @@
 # streamora
 
 Generic OTT player (Flutter) for Android and Windows with a Netflix-like UI.
-No preconfigured content or provider data. MIT licensed.
+No preconfigured content or provider data. Proprietary license (all rights reserved), source visible.
 
 ## Conventions
 - Code, comments and commits in English.

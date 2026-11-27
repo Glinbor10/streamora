@@ -1,17 +1,25 @@
 # streamora
 
-A new Flutter project.
+Generic OTT player with a Netflix-style UI for **Android** and **Windows**, built with Flutter.
 
-## Getting Started
+> Work in progress. No content is bundled; a **Demo Mode** with freely licensed Blender Foundation videos is planned.
 
-This project is a starting point for a Flutter application.
+## Download
+Installable builds are published in [GitHub Releases](../../releases):
+- `streamora-android-vX.Y.Z.apk`
+- `streamora-windows-vX.Y.Z-setup.exe` (installer) and `...-portable.zip`
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture
+`lib/features/<feature>/{domain,data,presentation}` plus `lib/shared`.
+Layer rules are enforced by `test/architecture/layers_test.dart` and CI.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Development
+```
+flutter pub get
+flutter analyze --fatal-infos
+flutter test
+```
+Changes are specified first with OpenSpec in `openspec/changes/`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+Proprietary, all rights reserved. The source is visible but may not be used, copied, modified, distributed or monetized without written permission. See [LICENSE](LICENSE).
