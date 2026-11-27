@@ -11,7 +11,7 @@ class CachedCatalogRepository implements CatalogRepository {
   new(this._inner);
 
   final CatalogRepository _inner;
-  final Map<String, Future<Object?>> _cache = {};
+  final Map<String, Object> _cache = {};
 
   Future<T> _once<T>(String key, Future<T> Function() load) {
     final cached = _cache[key];
@@ -20,7 +20,12 @@ class CachedCatalogRepository implements CatalogRepository {
     _cache[key] = future;
     // Forget failures so a retry reloads; callers still get the error.
     unawaited(
-      future.then<void>((_) {}, onError: (Object _) => _cache.remove(key)),
+      future.then<void>(
+        (_) {},
+        onError: (Object _) {
+          _cache.remove(key);
+        },
+      ),
     );
     return future;
   }
