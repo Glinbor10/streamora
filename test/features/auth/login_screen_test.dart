@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -5,6 +7,8 @@ import 'package:streamora/features/auth/data/xtream_auth_repository.dart';
 import 'package:streamora/features/auth/domain/auth_failure.dart';
 import 'package:streamora/features/auth/domain/credentials.dart';
 import 'package:streamora/features/auth/presentation/auth_providers.dart';
+import 'package:streamora/features/catalog/data/demo_catalog_repository.dart';
+import 'package:streamora/features/catalog/presentation/catalog_providers.dart';
 import 'package:streamora/main.dart';
 
 import 'fakes.dart';
@@ -15,7 +19,14 @@ Future<void> pumpApp(
 }) async {
   await tester.pumpWidget(
     ProviderScope(
-      overrides: [authRepositoryProvider.overrideWithValue(repo)],
+      overrides: [
+        authRepositoryProvider.overrideWithValue(repo),
+        catalogRepositoryProvider.overrideWithValue(
+          DemoCatalogRepository(
+            () => File('assets/demo/demo.json').readAsString(),
+          ),
+        ),
+      ],
       child: const StreamoraApp(),
     ),
   );
@@ -79,7 +90,7 @@ void main() {
     await tester.tap(find.byKey(const Key('login')));
     await tester.pumpAndSettle();
 
-    expect(find.text('Signed in'), findsOneWidget);
+    expect(find.byKey(const Key('logout')), findsOneWidget);
     expect(store.stored?.server, 'http://fake.test');
 
     await tester.tap(find.byKey(const Key('logout')));
@@ -99,7 +110,7 @@ void main() {
     await tester.tap(find.byKey(const Key('demo')));
     await tester.pumpAndSettle();
 
-    expect(find.text('Demo Mode'), findsOneWidget);
+    expect(find.byKey(const Key('logout')), findsOneWidget);
     expect(store.stored, isNull);
   });
 
@@ -115,6 +126,6 @@ void main() {
       repo: XtreamAuthRepository(store: store, checker: (_) async {}),
     );
 
-    expect(find.text('Signed in'), findsOneWidget);
+    expect(find.byKey(const Key('logout')), findsOneWidget);
   });
 }

@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:streamora/features/auth/domain/auth_session.dart';
+import 'package:streamora/app/shell.dart';
 import 'package:streamora/features/auth/presentation/auth_providers.dart';
 import 'package:streamora/features/auth/presentation/login_screen.dart';
 
@@ -29,35 +29,7 @@ final routerProvider = Provider<GoRouter>((ref) {
             const Scaffold(body: Center(child: CircularProgressIndicator())),
       ),
       GoRoute(path: '/login', builder: (_, _) => const LoginScreen()),
-      GoRoute(path: '/', builder: (_, _) => const _HomePlaceholder()),
+      GoRoute(path: '/', builder: (_, _) => const AdaptiveShell()),
     ],
   );
 });
-
-class _HomePlaceholder extends ConsumerWidget {
-  const new();
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final session = ref.watch(authControllerProvider).value;
-    final label = switch (session) {
-      DemoSession() => 'Demo Mode',
-      XtreamSession() => 'Signed in',
-      null => '',
-    };
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('streamora'),
-        actions: [
-          IconButton(
-            key: const Key('logout'),
-            tooltip: 'Sign out',
-            icon: const Icon(Icons.logout),
-            onPressed: ref.read(authControllerProvider.notifier).logout,
-          ),
-        ],
-      ),
-      body: Center(child: Text(label)),
-    );
-  }
-}
