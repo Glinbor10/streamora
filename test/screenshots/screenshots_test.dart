@@ -20,13 +20,27 @@ import '../features/auth/fakes.dart';
 final String? _outDir = Platform.environment['SCREENSHOTS_DIR'];
 final GlobalKey _boundary = GlobalKey();
 
+Directory _fontsDir() {
+  // .../flutter/bin/cache/dart-sdk/bin/dart -> .../flutter
+  var dir = File(Platform.resolvedExecutable).parent;
+  for (var i = 0; i < 6; i++) {
+    final candidate = Directory('${dir.path}/cache/artifacts/material_fonts');
+    if (candidate.existsSync()) return candidate;
+    dir = dir.parent;
+  }
+  final root = Platform.environment['FLUTTER_ROOT'];
+  return Directory('$root/bin/cache/artifacts/material_fonts');
+}
+
 Future<void> _loadFonts(WidgetTester tester) async {
-  final root = Platform.environment['FLUTTER_ROOT'] ?? '';
-  final dir = '$root/bin/cache/artifacts/material_fonts';
-  Future<void> load(String family, List<String> files) async {
+  final files = _fontsDir().listSync().whereType<File>().toList();
+  File find(String name) =>
+      files.firstWhere((f) => f.uri.pathSegments.last.toLowerCase() == name);
+
+  Future<void> load(String family, List<String> names) async {
     final loader = FontLoader(family);
-    for (final f in files) {
-      final bytes = File('$dir/$f').readAsBytesSync();
+    for (final n in names) {
+      final bytes = find(n).readAsBytesSync();
       loader.addFont(Future.value(ByteData.sublistView(bytes)));
     }
     await loader.load();
