@@ -98,7 +98,10 @@ Future<void> _shot(WidgetTester tester, String name, double dpr) async {
 }
 
 Future<void> _scrollDown(WidgetTester tester, double dy) async {
-  await tester.drag(find.byType(CustomScrollView).first, Offset(0, -dy));
+  await tester.drag(
+    find.byType(CustomScrollView).hitTestable().first,
+    Offset(0, -dy),
+  );
   await tester.pumpAndSettle();
 }
 
@@ -125,6 +128,7 @@ void _suite(String platform, Size size, double dpr) {
 
     await tester.tap(find.text('Movies').last);
     await tester.pumpAndSettle();
+    await _scrollDown(tester, -size.height * 2);
     await tester.tap(find.text('More info'));
     await tester.pumpAndSettle();
     await _shot(tester, '$platform-6-movie-detail', dpr);
