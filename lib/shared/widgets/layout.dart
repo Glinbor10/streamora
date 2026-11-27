@@ -2,6 +2,10 @@ import 'package:material_ui/material_ui.dart';
 import 'package:streamora/shared/theme/app_theme.dart';
 import 'package:streamora/shared/widgets/artwork.dart';
 
+/// Space kept at the end of scrollables so the floating bar never hides
+/// the last row.
+const shellBottomPadding = 100.0;
+
 /// Width from which the desktop layout (navigation rail) is used.
 const desktopBreakpoint = 600.0;
 

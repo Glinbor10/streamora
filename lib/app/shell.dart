@@ -7,8 +7,11 @@ import 'package:streamora/features/catalog/presentation/movies_screen.dart';
 import 'package:streamora/features/catalog/presentation/series_screen.dart';
 import 'package:streamora/shared/theme/app_theme.dart';
 import 'package:streamora/shared/widgets/layout.dart';
+import 'package:streamora/shared/widgets/logo.dart';
+import 'package:streamora/shared/widgets/nav.dart';
 
-/// Adaptive home: bottom bar on phones, navigation rail on wider windows.
+/// Adaptive home: floating pill bar on phones, slim icon rail on wide
+/// windows.
 class AdaptiveShell extends ConsumerStatefulWidget {
   /// Creates the shell.
   const new({super.key});
@@ -21,11 +24,25 @@ class _AdaptiveShellState extends ConsumerState<AdaptiveShell> {
   int _index = 1;
   final Set<int> _visited = {1};
 
-  static const List<({IconData icon, String label, IconData selected})>
-  _destinations = [
-    (icon: Icons.live_tv_outlined, selected: Icons.live_tv, label: 'Live TV'),
-    (icon: Icons.movie_outlined, selected: Icons.movie, label: 'Movies'),
-    (icon: Icons.tv_outlined, selected: Icons.tv, label: 'Series'),
+  static const List<NavItem> _items = [
+    NavItem(
+      id: 'live',
+      label: 'Live TV',
+      icon: Icons.live_tv_outlined,
+      selectedIcon: Icons.live_tv,
+    ),
+    NavItem(
+      id: 'movies',
+      label: 'Movies',
+      icon: Icons.movie_outlined,
+      selectedIcon: Icons.movie,
+    ),
+    NavItem(
+      id: 'series',
+      label: 'Series',
+      icon: Icons.tv_outlined,
+      selectedIcon: Icons.tv,
+    ),
   ];
 
   static const List<Widget> _screens = [
@@ -50,43 +67,17 @@ class _AdaptiveShellState extends ConsumerState<AdaptiveShell> {
       ],
     );
 
-    final appBar = AppBar(
-      title: const Text(
-        'STREAMORA',
-        style: TextStyle(
-          color: AppColors.accent,
-          fontWeight: FontWeight.w900,
-          letterSpacing: 2,
-        ),
-      ),
-      actions: [
-        IconButton(
-          key: const Key('logout'),
-          tooltip: 'Sign out',
-          icon: const Icon(Icons.logout),
-          onPressed: ref.read(authControllerProvider.notifier).logout,
-        ),
-      ],
-    );
-
     if (isWide) {
       return Scaffold(
         extendBodyBehindAppBar: true,
-        appBar: appBar,
+        appBar: AppBar(),
         body: Row(
           children: [
-            NavigationRail(
+            IconRail(
+              items: _items,
               selectedIndex: _index,
-              onDestinationSelected: _select,
-              labelType: NavigationRailLabelType.all,
-              destinations: [
-                for (final d in _destinations)
-                  NavigationRailDestination(
-                    icon: Icon(d.icon),
-                    selectedIcon: Icon(d.selected),
-                    label: Text(d.label),
-                  ),
-              ],
+              onSelected: _select,
+              onLogout: ref.read(authControllerProvider.notifier).logout,
             ),
             Expanded(child: body),
           ],
@@ -95,20 +86,38 @@ class _AdaptiveShellState extends ConsumerState<AdaptiveShell> {
     }
 
     return Scaffold(
+      extendBody: true,
       extendBodyBehindAppBar: true,
-      appBar: appBar,
-      body: body,
-      bottomNavigationBar: NavigationBar(
-        selectedIndex: _index,
-        onDestinationSelected: _select,
-        destinations: [
-          for (final d in _destinations)
-            NavigationDestination(
-              icon: Icon(d.icon),
-              selectedIcon: Icon(d.selected),
-              label: d.label,
+      appBar: AppBar(
+        title: const Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            StreamoraLogo(size: 30),
+            SizedBox(width: 8),
+            Text(
+              'streamora',
+              style: TextStyle(
+                color: AppColors.text,
+                fontWeight: FontWeight.w800,
+                letterSpacing: 0.5,
+              ),
             ),
+          ],
+        ),
+        actions: [
+          IconButton(
+            key: const Key('logout'),
+            tooltip: 'Sign out',
+            icon: const Icon(Icons.logout),
+            onPressed: ref.read(authControllerProvider.notifier).logout,
+          ),
         ],
+      ),
+      body: body,
+      bottomNavigationBar: FloatingPillNavBar(
+        items: _items,
+        selectedIndex: _index,
+        onSelected: _select,
       ),
     );
   }

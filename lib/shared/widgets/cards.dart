@@ -256,7 +256,7 @@ class LiveBadge extends StatelessWidget {
   Widget build(BuildContext context) {
     return DecoratedBox(
       decoration: BoxDecoration(
-        color: AppColors.accent,
+        color: AppColors.live,
         borderRadius: BorderRadius.circular(4),
       ),
       child: const Padding(

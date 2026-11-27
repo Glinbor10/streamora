@@ -158,11 +158,11 @@ void _suite(String platform, Size size, double dpr) {
     await _scrollDown(tester, size.height * 0.8);
     await _shot(tester, '$platform-4-movies-rows', dpr);
 
-    await tester.tap(find.text('Series').last);
+    await tester.tap(find.byKey(const Key('nav-series')));
     await tester.pumpAndSettle();
     await _shot(tester, '$platform-5-series', dpr);
 
-    await tester.tap(find.text('Live TV').last);
+    await tester.tap(find.byKey(const Key('nav-live')));
     await tester.pumpAndSettle();
     await _shot(tester, '$platform-6-live', dpr);
   });
