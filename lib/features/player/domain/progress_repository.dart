@@ -13,4 +13,7 @@ abstract interface class ProgressRepository {
 
   /// Deletes the entry stored under [key].
   Future<void> remove(String key);
+
+  /// Deletes every stored entry.
+  Future<void> clear();
 }

@@ -68,6 +68,9 @@ class PrefsProgressRepository implements ProgressRepository {
     await _persist(entries);
   }
 
+  @override
+  Future<void> clear() => _persist(const []);
+
   Future<void> _persist(List<WatchProgress> entries) =>
       _write(jsonEncode([for (final e in entries) e.toJson()]));
 }

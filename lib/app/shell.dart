@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:streamora/app/continue_watching.dart';
-import 'package:streamora/features/auth/presentation/auth_providers.dart';
+import 'package:streamora/app/session_cleanup.dart';
 import 'package:streamora/features/catalog/presentation/live_screen.dart';
 import 'package:streamora/features/catalog/presentation/movies_screen.dart';
 import 'package:streamora/features/catalog/presentation/series_screen.dart';
@@ -77,7 +77,7 @@ class _AdaptiveShellState extends ConsumerState<AdaptiveShell> {
               items: _items,
               selectedIndex: _index,
               onSelected: _select,
-              onLogout: ref.read(authControllerProvider.notifier).logout,
+              onLogout: () => signOut(ProviderScope.containerOf(context)),
             ),
             Expanded(child: body),
           ],
@@ -109,7 +109,7 @@ class _AdaptiveShellState extends ConsumerState<AdaptiveShell> {
             key: const Key('logout'),
             tooltip: 'Sign out',
             icon: const Icon(Icons.logout),
-            onPressed: ref.read(authControllerProvider.notifier).logout,
+            onPressed: () => signOut(ProviderScope.containerOf(context)),
           ),
         ],
       ),

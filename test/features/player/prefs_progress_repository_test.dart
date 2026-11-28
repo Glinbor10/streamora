@@ -63,6 +63,13 @@ void main() {
     expect(all.any((e) => e.id == 0), isFalse);
   });
 
+  test('clear removes every entry', () async {
+    await repo.save(_entry(1, 100));
+    await repo.save(_entry(2, 200));
+    await repo.clear();
+    expect(await repo.all(), isEmpty);
+  });
+
   test('corrupted data is ignored instead of crashing', () async {
     blob = '{not json';
     expect(await repo.all(), isEmpty);
