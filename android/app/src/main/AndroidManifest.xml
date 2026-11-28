@@ -3,7 +3,7 @@
          debug/profile). Needed for the Xtream API and video streams. -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:label="streamora"
+        android:label="Streamore"
         android:allowBackup="false"
         android:usesCleartextTraffic="true"
         android:name="${applicationName}"

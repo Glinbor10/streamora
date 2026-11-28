@@ -79,7 +79,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                   const Center(child: StreamoraLogo(size: 84)),
                   const SizedBox(height: 16),
                   Text(
-                    'streamora',
+                    'Streamore',
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.headlineMedium
                         ?.copyWith(fontWeight: FontWeight.w800),
