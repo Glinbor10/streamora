@@ -38,13 +38,13 @@
     "id": 101,
     "name": "Global Report",
     "category": 1,
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 102,
     "name": "Metro Live",
     "category": 1,
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 103,
@@ -56,13 +56,13 @@
     "id": 104,
     "name": "Nova Sports 1",
     "category": 2,
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 105,
     "name": "Nova Sports 2",
     "category": 2,
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 106,
@@ -74,13 +74,13 @@
     "id": 107,
     "name": "Court Side",
     "category": 2,
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 108,
     "name": "Cinema Classics",
     "category": 3,
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 109,
@@ -92,13 +92,13 @@
     "id": 110,
     "name": "Night Movies",
     "category": 3,
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 111,
     "name": "Indie Screen",
     "category": 3,
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 112,
@@ -110,13 +110,13 @@
     "id": 113,
     "name": "Cartoon Planet",
     "category": 4,
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 114,
     "name": "Little Stars",
     "category": 4,
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 115,
@@ -128,13 +128,13 @@
     "id": 116,
     "name": "Rock Wave",
     "category": 5,
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 117,
     "name": "Chill Lounge",
     "category": 5,
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 118,
@@ -146,13 +146,13 @@
     "id": 119,
     "name": "Deep Ocean",
     "category": 6,
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 120,
     "name": "Time Machine",
     "category": 6,
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    }
   ]
  },
@@ -191,7 +191,7 @@
     "duration": "10 min",
     "director": "Sacha Goedegebure",
     "cast": "Blender Foundation",
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 2,
@@ -217,7 +217,7 @@
     "duration": "11 min",
     "director": "Bassam Kurdali",
     "cast": "Blender Foundation",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 10,
@@ -243,7 +243,7 @@
     "duration": "88 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 12,
@@ -256,7 +256,7 @@
     "duration": "121 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 13,
@@ -282,7 +282,7 @@
     "duration": "121 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 15,
@@ -295,7 +295,7 @@
     "duration": "122 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 16,
@@ -321,7 +321,7 @@
     "duration": "89 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 18,
@@ -334,7 +334,7 @@
     "duration": "115 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 19,
@@ -360,7 +360,7 @@
     "duration": "132 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 21,
@@ -373,7 +373,7 @@
     "duration": "96 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 22,
@@ -399,7 +399,7 @@
     "duration": "137 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 24,
@@ -412,7 +412,7 @@
     "duration": "130 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 25,
@@ -438,7 +438,7 @@
     "duration": "96 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 27,
@@ -451,7 +451,7 @@
     "duration": "94 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 28,
@@ -477,7 +477,7 @@
     "duration": "138 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 30,
@@ -490,7 +490,7 @@
     "duration": "142 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 31,
@@ -516,7 +516,7 @@
     "duration": "102 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 33,
@@ -529,7 +529,7 @@
     "duration": "125 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 34,
@@ -555,7 +555,7 @@
     "duration": "114 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 36,
@@ -568,7 +568,7 @@
     "duration": "86 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 37,
@@ -594,7 +594,7 @@
     "duration": "124 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 39,
@@ -607,7 +607,7 @@
     "duration": "148 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 40,
@@ -633,7 +633,7 @@
     "duration": "119 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    },
    {
     "id": 42,
@@ -646,7 +646,7 @@
     "duration": "120 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
    },
    {
     "id": 43,
@@ -672,7 +672,7 @@
     "duration": "120 min",
     "director": "Sam Rivera",
     "cast": "Alex Moreno, Priya Nair, Jonas Keller",
-    "url": "https://download.blender.org/ED/ed_hd.avi"
+    "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
    }
   ]
  },
@@ -714,7 +714,7 @@
         "title": "Episode 1: Broken Voyage",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "50 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9001,
@@ -730,7 +730,7 @@
         "title": "Episode 3: Hollow Horizon",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "46 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9003,
@@ -738,7 +738,7 @@
         "title": "Episode 4: Northern Orbit",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "57 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9004,
@@ -754,7 +754,7 @@
         "title": "Episode 6: Hollow Harbor",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "41 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9006,
@@ -762,7 +762,7 @@
         "title": "Episode 7: Broken Frontier",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "48 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -783,7 +783,7 @@
         "title": "Episode 2: Hollow Harbor",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "41 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9009,
@@ -791,7 +791,7 @@
         "title": "Episode 3: Wild Voyage",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "43 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9010,
@@ -807,7 +807,7 @@
         "title": "Episode 5: Paper Season",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "40 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9012,
@@ -815,7 +815,7 @@
         "title": "Episode 6: Frozen Empire",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "38 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -836,7 +836,7 @@
         "title": "Episode 2: Northern Machine",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "55 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9015,
@@ -844,7 +844,7 @@
         "title": "Episode 3: Electric Horizon",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "58 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9016,
@@ -860,7 +860,7 @@
         "title": "Episode 5: Golden Horizon",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "44 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9018,
@@ -868,7 +868,7 @@
         "title": "Episode 6: Distant Mirror",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "48 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -889,7 +889,7 @@
         "title": "Episode 2: Paper Tide",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "42 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9021,
@@ -897,7 +897,7 @@
         "title": "Episode 3: Electric Horizon",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "43 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9022,
@@ -913,7 +913,7 @@
         "title": "Episode 5: Northern Signal",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "39 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9024,
@@ -921,7 +921,7 @@
         "title": "Episode 6: Burning Frontier",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "55 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9025,
@@ -953,7 +953,7 @@
         "title": "Episode 1: Golden Orbit",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "54 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9027,
@@ -961,7 +961,7 @@
         "title": "Episode 2: Northern Mirror",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "54 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9028,
@@ -977,7 +977,7 @@
         "title": "Episode 4: Neon Signal",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "52 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9030,
@@ -985,7 +985,7 @@
         "title": "Episode 5: Burning Harbor",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "45 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9031,
@@ -1001,7 +1001,7 @@
         "title": "Episode 7: Last Garden",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "58 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -1014,7 +1014,7 @@
         "title": "Episode 1: Electric Orbit",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "52 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9034,
@@ -1030,7 +1030,7 @@
         "title": "Episode 3: Frozen Mirror",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "51 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9036,
@@ -1038,7 +1038,7 @@
         "title": "Episode 4: Wild River",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "44 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9037,
@@ -1054,7 +1054,7 @@
         "title": "Episode 6: Silent River",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "52 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9039,
@@ -1062,7 +1062,7 @@
         "title": "Episode 7: Paper Horizon",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "48 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -1083,7 +1083,7 @@
         "title": "Episode 2: Hidden Orbit",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "39 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9042,
@@ -1091,7 +1091,7 @@
         "title": "Episode 3: Frozen Orbit",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "51 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9043,
@@ -1107,7 +1107,7 @@
         "title": "Episode 5: Northern River",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "46 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9045,
@@ -1115,7 +1115,7 @@
         "title": "Episode 6: Crimson Empire",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "40 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9046,
@@ -1147,7 +1147,7 @@
         "title": "Episode 1: Burning Tide",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "57 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9048,
@@ -1155,7 +1155,7 @@
         "title": "Episode 2: Electric Echo",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "45 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9049,
@@ -1171,7 +1171,7 @@
         "title": "Episode 4: Frozen Voyage",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "58 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9051,
@@ -1179,7 +1179,7 @@
         "title": "Episode 5: Distant Voyage",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "52 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -1200,7 +1200,7 @@
         "title": "Episode 2: Crimson Horizon",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "54 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9054,
@@ -1208,7 +1208,7 @@
         "title": "Episode 3: Golden Frontier",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "52 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9055,
@@ -1224,7 +1224,7 @@
         "title": "Episode 5: Wild Kingdom",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "44 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9057,
@@ -1232,7 +1232,7 @@
         "title": "Episode 6: Broken River",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "58 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -1253,7 +1253,7 @@
         "title": "Episode 2: Silent Harbor",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "46 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9060,
@@ -1261,7 +1261,7 @@
         "title": "Episode 3: Neon Empire",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "40 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9061,
@@ -1277,7 +1277,7 @@
         "title": "Episode 5: Distant Echo",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "43 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9063,
@@ -1285,7 +1285,7 @@
         "title": "Episode 6: Frozen Orbit",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "38 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      }
@@ -1317,7 +1317,7 @@
         "title": "Episode 2: Frozen Horizon",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "50 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9066,
@@ -1325,7 +1325,7 @@
         "title": "Episode 3: Hidden Frontier",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "54 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9067,
@@ -1341,7 +1341,7 @@
         "title": "Episode 5: Hidden Orbit",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "42 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9069,
@@ -1349,7 +1349,7 @@
         "title": "Episode 6: Wild Echo",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "38 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -1370,7 +1370,7 @@
         "title": "Episode 2: Electric Season",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "53 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9072,
@@ -1378,7 +1378,7 @@
         "title": "Episode 3: Electric Kingdom",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "57 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9073,
@@ -1394,7 +1394,7 @@
         "title": "Episode 5: Neon Garden",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "54 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9075,
@@ -1402,7 +1402,7 @@
         "title": "Episode 6: Silent Mirror",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "38 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9076,
@@ -1423,7 +1423,7 @@
         "title": "Episode 1: Wild Archive",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "39 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9078,
@@ -1431,7 +1431,7 @@
         "title": "Episode 2: Silent Mirror",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "46 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9079,
@@ -1447,7 +1447,7 @@
         "title": "Episode 4: Hidden Harbor",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "53 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9081,
@@ -1455,7 +1455,7 @@
         "title": "Episode 5: Midnight Harbor",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "45 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      }
@@ -1487,7 +1487,7 @@
         "title": "Episode 2: Golden Harbor",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "42 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9084,
@@ -1495,7 +1495,7 @@
         "title": "Episode 3: Burning Orbit",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "47 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9085,
@@ -1511,7 +1511,7 @@
         "title": "Episode 5: Northern Orbit",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "41 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9087,
@@ -1519,7 +1519,7 @@
         "title": "Episode 6: Golden Frontier",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "54 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9088,
@@ -1535,7 +1535,7 @@
         "title": "Episode 8: Last Voyage",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "40 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -1548,7 +1548,7 @@
         "title": "Episode 1: Silent Kingdom",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "40 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9091,
@@ -1564,7 +1564,7 @@
         "title": "Episode 3: Golden Harbor",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "40 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9093,
@@ -1572,7 +1572,7 @@
         "title": "Episode 4: Electric Orbit",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "42 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9094,
@@ -1588,7 +1588,7 @@
         "title": "Episode 6: Broken Frontier",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "50 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9096,
@@ -1596,7 +1596,7 @@
         "title": "Episode 7: Silent Empire",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "53 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9097,
@@ -1628,7 +1628,7 @@
         "title": "Episode 1: Burning Season",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "44 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9099,
@@ -1636,7 +1636,7 @@
         "title": "Episode 2: Silent Kingdom",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "49 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9100,
@@ -1652,7 +1652,7 @@
         "title": "Episode 4: Hidden Machine",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "46 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9102,
@@ -1660,7 +1660,7 @@
         "title": "Episode 5: Crimson Orbit",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "39 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9103,
@@ -1676,7 +1676,7 @@
         "title": "Episode 7: Neon River",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "49 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -1689,7 +1689,7 @@
         "title": "Episode 1: Silent Season",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "55 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9106,
@@ -1705,7 +1705,7 @@
         "title": "Episode 3: Paper Garden",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "47 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9108,
@@ -1713,7 +1713,7 @@
         "title": "Episode 4: Northern Echo",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "42 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9109,
@@ -1729,7 +1729,7 @@
         "title": "Episode 6: Distant Kingdom",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "58 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9111,
@@ -1737,7 +1737,7 @@
         "title": "Episode 7: Midnight Season",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "45 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9112,
@@ -1769,7 +1769,7 @@
         "title": "Episode 1: Paper River",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "51 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9114,
@@ -1777,7 +1777,7 @@
         "title": "Episode 2: Electric Voyage",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "40 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9115,
@@ -1793,7 +1793,7 @@
         "title": "Episode 4: Burning Mirror",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "46 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9117,
@@ -1801,7 +1801,7 @@
         "title": "Episode 5: Golden Horizon",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "51 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9118,
@@ -1822,7 +1822,7 @@
         "title": "Episode 1: Wild Orbit",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "39 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9120,
@@ -1830,7 +1830,7 @@
         "title": "Episode 2: Northern Orbit",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "49 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9121,
@@ -1846,7 +1846,7 @@
         "title": "Episode 4: Broken Season",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "58 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9123,
@@ -1854,7 +1854,7 @@
         "title": "Episode 5: Paper Tide",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "38 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9124,
@@ -1875,7 +1875,7 @@
         "title": "Episode 1: Silent Harbor",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "54 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9126,
@@ -1883,7 +1883,7 @@
         "title": "Episode 2: Paper Archive",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "41 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9127,
@@ -1899,7 +1899,7 @@
         "title": "Episode 4: Last Archive",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "55 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9129,
@@ -1907,7 +1907,7 @@
         "title": "Episode 5: Crimson Horizon",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "45 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9130,
@@ -1923,7 +1923,7 @@
         "title": "Episode 7: Midnight Tide",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "41 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9132,
@@ -1931,7 +1931,7 @@
         "title": "Episode 8: Last Harbor",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "54 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      }
@@ -1963,7 +1963,7 @@
         "title": "Episode 2: Broken Mirror",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "51 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9135,
@@ -1971,7 +1971,7 @@
         "title": "Episode 3: Distant Echo",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "44 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9136,
@@ -1987,7 +1987,7 @@
         "title": "Episode 5: Broken Tide",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "45 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9138,
@@ -1995,7 +1995,7 @@
         "title": "Episode 6: Northern Echo",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "48 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9139,
@@ -2016,7 +2016,7 @@
         "title": "Episode 1: Silent Kingdom",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "54 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9141,
@@ -2024,7 +2024,7 @@
         "title": "Episode 2: Hidden Voyage",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "44 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9142,
@@ -2040,7 +2040,7 @@
         "title": "Episode 4: Broken Orbit",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "41 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9144,
@@ -2048,7 +2048,7 @@
         "title": "Episode 5: Northern Empire",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "53 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9145,
@@ -2069,7 +2069,7 @@
         "title": "Episode 1: Crimson Voyage",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "57 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9147,
@@ -2077,7 +2077,7 @@
         "title": "Episode 2: Electric Tide",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "39 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9148,
@@ -2093,7 +2093,7 @@
         "title": "Episode 4: Last Harbor",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "48 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9150,
@@ -2101,7 +2101,7 @@
         "title": "Episode 5: Golden Empire",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "54 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9151,
@@ -2117,7 +2117,7 @@
         "title": "Episode 7: Hollow River",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "43 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9153,
@@ -2125,7 +2125,7 @@
         "title": "Episode 8: Last Horizon",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "46 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      }
@@ -2157,7 +2157,7 @@
         "title": "Episode 2: Hidden Echo",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "53 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9156,
@@ -2165,7 +2165,7 @@
         "title": "Episode 3: Golden Machine",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "52 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9157,
@@ -2181,7 +2181,7 @@
         "title": "Episode 5: Silent Tide",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "58 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9159,
@@ -2189,7 +2189,7 @@
         "title": "Episode 6: Wild Echo",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "39 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -2210,7 +2210,7 @@
         "title": "Episode 2: Hidden River",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "46 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9162,
@@ -2218,7 +2218,7 @@
         "title": "Episode 3: Burning Echo",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "48 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9163,
@@ -2234,7 +2234,7 @@
         "title": "Episode 5: Hidden Horizon",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "41 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9165,
@@ -2242,7 +2242,7 @@
         "title": "Episode 6: Northern Archive",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "46 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9166,
@@ -2258,7 +2258,7 @@
         "title": "Episode 8: Frozen Horizon",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "47 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -2271,7 +2271,7 @@
         "title": "Episode 1: Broken River",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "52 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9169,
@@ -2287,7 +2287,7 @@
         "title": "Episode 3: Wild Empire",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "51 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9171,
@@ -2295,7 +2295,7 @@
         "title": "Episode 4: Hidden Echo",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "55 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9172,
@@ -2311,7 +2311,7 @@
         "title": "Episode 6: Hidden Orbit",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "40 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -2324,7 +2324,7 @@
         "title": "Episode 1: Last Tide",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "52 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9175,
@@ -2340,7 +2340,7 @@
         "title": "Episode 3: Paper Mirror",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "55 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9177,
@@ -2348,7 +2348,7 @@
         "title": "Episode 4: Last Kingdom",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "46 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9178,
@@ -2364,7 +2364,7 @@
         "title": "Episode 6: Golden Archive",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "43 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      }
@@ -2388,7 +2388,7 @@
         "title": "Episode 1: Hidden Season",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "45 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9181,
@@ -2404,7 +2404,7 @@
         "title": "Episode 3: Crimson Signal",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "53 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9183,
@@ -2412,7 +2412,7 @@
         "title": "Episode 4: Broken Archive",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "39 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9184,
@@ -2428,7 +2428,7 @@
         "title": "Episode 6: Golden Voyage",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "49 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9186,
@@ -2436,7 +2436,7 @@
         "title": "Episode 7: Frozen Archive",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "46 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -2457,7 +2457,7 @@
         "title": "Episode 2: Hollow River",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "39 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9189,
@@ -2465,7 +2465,7 @@
         "title": "Episode 3: Golden Orbit",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "57 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9190,
@@ -2481,7 +2481,7 @@
         "title": "Episode 5: Hollow Empire",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "47 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      }
@@ -2505,7 +2505,7 @@
         "title": "Episode 1: Neon Signal",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "55 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9193,
@@ -2521,7 +2521,7 @@
         "title": "Episode 3: Wild Orbit",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "47 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9195,
@@ -2529,7 +2529,7 @@
         "title": "Episode 4: Distant Tide",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "47 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9196,
@@ -2550,7 +2550,7 @@
         "title": "Episode 1: Golden Season",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "50 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9198,
@@ -2558,7 +2558,7 @@
         "title": "Episode 2: Golden Horizon",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "43 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9199,
@@ -2574,7 +2574,7 @@
         "title": "Episode 4: Hollow Archive",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "42 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9201,
@@ -2582,7 +2582,7 @@
         "title": "Episode 5: Silent Echo",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "42 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9202,
@@ -2598,7 +2598,7 @@
         "title": "Episode 7: Hollow Empire",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "49 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -2611,7 +2611,7 @@
         "title": "Episode 1: Frozen Empire",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "41 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9205,
@@ -2627,7 +2627,7 @@
         "title": "Episode 3: Electric Echo",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "48 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9207,
@@ -2635,7 +2635,7 @@
         "title": "Episode 4: Crimson Season",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "57 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9208,
@@ -2651,7 +2651,7 @@
         "title": "Episode 6: Golden Frontier",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "56 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9210,
@@ -2659,7 +2659,7 @@
         "title": "Episode 7: Golden Echo",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "54 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      }
@@ -2691,7 +2691,7 @@
         "title": "Episode 2: Last Season",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "52 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9213,
@@ -2699,7 +2699,7 @@
         "title": "Episode 3: Distant Tide",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "56 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9214,
@@ -2715,7 +2715,7 @@
         "title": "Episode 5: Paper Archive",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "38 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9216,
@@ -2723,7 +2723,7 @@
         "title": "Episode 6: Silent Frontier",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "45 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -2744,7 +2744,7 @@
         "title": "Episode 2: Last Harbor",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "49 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9219,
@@ -2752,7 +2752,7 @@
         "title": "Episode 3: Neon Machine",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "52 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9220,
@@ -2768,7 +2768,7 @@
         "title": "Episode 5: Hidden River",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "54 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9222,
@@ -2776,7 +2776,7 @@
         "title": "Episode 6: Hidden Echo",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "50 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9223,
@@ -2792,7 +2792,7 @@
         "title": "Episode 8: Last Voyage",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "53 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -2805,7 +2805,7 @@
         "title": "Episode 1: Frozen Mirror",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "49 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9226,
@@ -2821,7 +2821,7 @@
         "title": "Episode 3: Midnight Archive",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "46 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9228,
@@ -2829,7 +2829,7 @@
         "title": "Episode 4: Northern Voyage",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "46 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9229,
@@ -2845,7 +2845,7 @@
         "title": "Episode 6: Golden Empire",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "43 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9231,
@@ -2853,7 +2853,7 @@
         "title": "Episode 7: Midnight River",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "43 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -2874,7 +2874,7 @@
         "title": "Episode 2: Paper Signal",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "55 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9234,
@@ -2882,7 +2882,7 @@
         "title": "Episode 3: Wild Machine",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "50 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9235,
@@ -2898,7 +2898,7 @@
         "title": "Episode 5: Hidden Archive",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "43 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9237,
@@ -2906,7 +2906,7 @@
         "title": "Episode 6: Crimson Kingdom",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "46 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9238,
@@ -2938,7 +2938,7 @@
         "title": "Episode 1: Hollow Echo",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "53 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9240,
@@ -2946,7 +2946,7 @@
         "title": "Episode 2: Broken Echo",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "39 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9241,
@@ -2962,7 +2962,7 @@
         "title": "Episode 4: Hollow Mirror",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "56 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9243,
@@ -2970,7 +2970,7 @@
         "title": "Episode 5: Distant Garden",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "49 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9244,
@@ -2986,7 +2986,7 @@
         "title": "Episode 7: Broken Garden",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "41 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9246,
@@ -2994,7 +2994,7 @@
         "title": "Episode 8: Hidden Garden",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "46 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -3015,7 +3015,7 @@
         "title": "Episode 2: Hollow Archive",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "54 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9249,
@@ -3023,7 +3023,7 @@
         "title": "Episode 3: Northern Mirror",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "38 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9250,
@@ -3039,7 +3039,7 @@
         "title": "Episode 5: Wild Empire",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "43 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9252,
@@ -3047,7 +3047,7 @@
         "title": "Episode 6: Crimson Signal",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "57 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9253,
@@ -3063,7 +3063,7 @@
         "title": "Episode 8: Neon Empire",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "47 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -3076,7 +3076,7 @@
         "title": "Episode 1: Distant Echo",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "53 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9256,
@@ -3092,7 +3092,7 @@
         "title": "Episode 3: Hidden Archive",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "45 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9258,
@@ -3100,7 +3100,7 @@
         "title": "Episode 4: Last Orbit",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "58 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9259,
@@ -3132,7 +3132,7 @@
         "title": "Episode 1: Golden Harbor",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "38 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9261,
@@ -3140,7 +3140,7 @@
         "title": "Episode 2: Frozen Orbit",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "44 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9262,
@@ -3156,7 +3156,7 @@
         "title": "Episode 4: Burning Mirror",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "58 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9264,
@@ -3164,7 +3164,7 @@
         "title": "Episode 5: Northern Frontier",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "38 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9265,
@@ -3180,7 +3180,7 @@
         "title": "Episode 7: Distant Voyage",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "57 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -3193,7 +3193,7 @@
         "title": "Episode 1: Frozen Garden",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "38 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9268,
@@ -3209,7 +3209,7 @@
         "title": "Episode 3: Hollow Garden",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "38 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9270,
@@ -3217,7 +3217,7 @@
         "title": "Episode 4: Silent Echo",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "58 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9271,
@@ -3238,7 +3238,7 @@
         "title": "Episode 1: Hollow Voyage",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "40 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9273,
@@ -3246,7 +3246,7 @@
         "title": "Episode 2: Wild Signal",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "44 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9274,
@@ -3262,7 +3262,7 @@
         "title": "Episode 4: Hidden Kingdom",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "41 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9276,
@@ -3270,7 +3270,7 @@
         "title": "Episode 5: Electric Signal",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "44 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      }
@@ -3302,7 +3302,7 @@
         "title": "Episode 2: Burning Frontier",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "57 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9279,
@@ -3310,7 +3310,7 @@
         "title": "Episode 3: Silent Tide",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "51 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9280,
@@ -3326,7 +3326,7 @@
         "title": "Episode 5: Golden Harbor",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "47 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9282,
@@ -3334,7 +3334,7 @@
         "title": "Episode 6: Frozen Tide",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "54 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9283,
@@ -3355,7 +3355,7 @@
         "title": "Episode 1: Northern Signal",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "43 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9285,
@@ -3363,7 +3363,7 @@
         "title": "Episode 2: Northern Machine",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "46 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9286,
@@ -3379,7 +3379,7 @@
         "title": "Episode 4: Northern Empire",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "58 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9288,
@@ -3387,7 +3387,7 @@
         "title": "Episode 5: Hidden Frontier",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "55 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9289,
@@ -3403,7 +3403,7 @@
         "title": "Episode 7: Wild Season",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "40 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -3416,7 +3416,7 @@
         "title": "Episode 1: Silent Machine",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "47 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9292,
@@ -3432,7 +3432,7 @@
         "title": "Episode 3: Frozen Season",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "45 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9294,
@@ -3440,7 +3440,7 @@
         "title": "Episode 4: Paper Garden",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "57 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9295,
@@ -3456,7 +3456,7 @@
         "title": "Episode 6: Electric Archive",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "55 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9297,
@@ -3464,7 +3464,7 @@
         "title": "Episode 7: Burning Empire",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "52 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9298,
@@ -3496,7 +3496,7 @@
         "title": "Episode 1: Electric Mirror",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "48 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9300,
@@ -3504,7 +3504,7 @@
         "title": "Episode 2: Hollow Empire",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "48 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9301,
@@ -3520,7 +3520,7 @@
         "title": "Episode 4: Frozen Signal",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "50 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9303,
@@ -3528,7 +3528,7 @@
         "title": "Episode 5: Electric Garden",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "47 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9304,
@@ -3549,7 +3549,7 @@
         "title": "Episode 1: Midnight Voyage",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "52 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9306,
@@ -3557,7 +3557,7 @@
         "title": "Episode 2: Crimson Horizon",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "51 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9307,
@@ -3573,7 +3573,7 @@
         "title": "Episode 4: Electric Orbit",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "50 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9309,
@@ -3581,7 +3581,7 @@
         "title": "Episode 5: Silent Mirror",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "56 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -3602,7 +3602,7 @@
         "title": "Episode 2: Last Archive",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "48 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9312,
@@ -3610,7 +3610,7 @@
         "title": "Episode 3: Midnight Signal",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "45 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9313,
@@ -3626,7 +3626,7 @@
         "title": "Episode 5: Northern Archive",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "57 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9315,
@@ -3634,7 +3634,7 @@
         "title": "Episode 6: Neon Empire",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "48 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9316,
@@ -3650,7 +3650,7 @@
         "title": "Episode 8: Crimson Orbit",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "44 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -3663,7 +3663,7 @@
         "title": "Episode 1: Golden Machine",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "56 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9319,
@@ -3679,7 +3679,7 @@
         "title": "Episode 3: Silent Machine",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "48 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9321,
@@ -3687,7 +3687,7 @@
         "title": "Episode 4: Neon Archive",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "43 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9322,
@@ -3703,7 +3703,7 @@
         "title": "Episode 6: Hollow Echo",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "46 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      }
@@ -3727,7 +3727,7 @@
         "title": "Episode 1: Midnight Signal",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "47 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9325,
@@ -3743,7 +3743,7 @@
         "title": "Episode 3: Golden Empire",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "40 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9327,
@@ -3751,7 +3751,7 @@
         "title": "Episode 4: Golden Frontier",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "55 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9328,
@@ -3767,7 +3767,7 @@
         "title": "Episode 6: Neon Archive",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "55 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9330,
@@ -3775,7 +3775,7 @@
         "title": "Episode 7: Electric Frontier",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "45 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -3796,7 +3796,7 @@
         "title": "Episode 2: Northern Horizon",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "46 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9333,
@@ -3804,7 +3804,7 @@
         "title": "Episode 3: Hollow Mirror",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "47 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9334,
@@ -3820,7 +3820,7 @@
         "title": "Episode 5: Hidden Machine",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "47 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9336,
@@ -3828,7 +3828,7 @@
         "title": "Episode 6: Wild Echo",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "56 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9337,
@@ -3849,7 +3849,7 @@
         "title": "Episode 1: Silent Voyage",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "58 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9339,
@@ -3857,7 +3857,7 @@
         "title": "Episode 2: Distant Orbit",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "41 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9340,
@@ -3873,7 +3873,7 @@
         "title": "Episode 4: Hollow Garden",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "50 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9342,
@@ -3881,7 +3881,7 @@
         "title": "Episode 5: Frozen Harbor",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "55 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      }
@@ -3913,7 +3913,7 @@
         "title": "Episode 2: Broken Garden",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "53 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9345,
@@ -3921,7 +3921,7 @@
         "title": "Episode 3: Crimson Frontier",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "42 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9346,
@@ -3937,7 +3937,7 @@
         "title": "Episode 5: Silent Empire",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "52 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9348,
@@ -3945,7 +3945,7 @@
         "title": "Episode 6: Northern Kingdom",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "49 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9349,
@@ -3961,7 +3961,7 @@
         "title": "Episode 8: Frozen Machine",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "58 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -3974,7 +3974,7 @@
         "title": "Episode 1: Silent Echo",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "48 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9352,
@@ -3990,7 +3990,7 @@
         "title": "Episode 3: Crimson Voyage",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "51 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9354,
@@ -3998,7 +3998,7 @@
         "title": "Episode 4: Electric River",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "49 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9355,
@@ -4030,7 +4030,7 @@
         "title": "Episode 1: Distant Kingdom",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "53 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9357,
@@ -4038,7 +4038,7 @@
         "title": "Episode 2: Wild River",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "46 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9358,
@@ -4054,7 +4054,7 @@
         "title": "Episode 4: Last River",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "48 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9360,
@@ -4062,7 +4062,7 @@
         "title": "Episode 5: Distant Garden",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "58 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -4083,7 +4083,7 @@
         "title": "Episode 2: Wild Echo",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "47 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9363,
@@ -4091,7 +4091,7 @@
         "title": "Episode 3: Last Horizon",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "44 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9364,
@@ -4107,7 +4107,7 @@
         "title": "Episode 5: Wild Garden",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "57 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -4120,7 +4120,7 @@
         "title": "Episode 1: Golden Echo",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "58 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9367,
@@ -4136,7 +4136,7 @@
         "title": "Episode 3: Crimson Tide",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "58 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9369,
@@ -4144,7 +4144,7 @@
         "title": "Episode 4: Silent Machine",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "47 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9370,
@@ -4165,7 +4165,7 @@
         "title": "Episode 1: Burning Horizon",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "56 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9372,
@@ -4173,7 +4173,7 @@
         "title": "Episode 2: Crimson Frontier",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "54 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9373,
@@ -4189,7 +4189,7 @@
         "title": "Episode 4: Wild Archive",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "38 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9375,
@@ -4197,7 +4197,7 @@
         "title": "Episode 5: Wild Garden",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "51 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      }
@@ -4229,7 +4229,7 @@
         "title": "Episode 2: Hidden Voyage",
         "plot": "A reluctant hero is pulled back into the world they tried to leave behind.",
         "duration": "42 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9378,
@@ -4237,7 +4237,7 @@
         "title": "Episode 3: Northern Horizon",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "56 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9379,
@@ -4253,7 +4253,7 @@
         "title": "Episode 5: Crimson Machine",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "42 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        }
       ]
      },
@@ -4266,7 +4266,7 @@
         "title": "Episode 1: Distant Frontier",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "46 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9382,
@@ -4282,7 +4282,7 @@
         "title": "Episode 3: Silent Harbor",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "47 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9384,
@@ -4290,7 +4290,7 @@
         "title": "Episode 4: Distant Empire",
         "plot": "A small crew races against time to cross a hostile frontier.",
         "duration": "57 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9385,
@@ -4311,7 +4311,7 @@
         "title": "Episode 1: Northern Empire",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "41 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9387,
@@ -4319,7 +4319,7 @@
         "title": "Episode 2: Hollow Empire",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "51 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9388,
@@ -4335,7 +4335,7 @@
         "title": "Episode 4: Burning Kingdom",
         "plot": "When the signal returns after thirty years, nothing is as it seems.",
         "duration": "39 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9390,
@@ -4343,7 +4343,7 @@
         "title": "Episode 5: Burning Horizon",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "57 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9391,
@@ -4359,7 +4359,7 @@
         "title": "Episode 7: Wild Season",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "45 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9393,
@@ -4367,7 +4367,7 @@
         "title": "Episode 8: Paper Kingdom",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "38 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        }
       ]
      },
@@ -4388,7 +4388,7 @@
         "title": "Episode 2: Crimson Kingdom",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "56 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9396,
@@ -4396,7 +4396,7 @@
         "title": "Episode 3: Electric Orbit",
         "plot": "An unlikely friendship sparks a chain of events nobody saw coming.",
         "duration": "53 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9397,
@@ -4412,7 +4412,7 @@
         "title": "Episode 5: Northern Season",
         "plot": "Two strangers uncover a secret that could change the city forever.",
         "duration": "45 min",
-        "url": "https://download.blender.org/ED/ed_hd.avi"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4"
        },
        {
         "id": 9399,
@@ -4420,7 +4420,7 @@
         "title": "Episode 6: Distant Echo",
         "plot": "Everything depends on one last night and a plan that cannot fail.",
         "duration": "50 min",
-        "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"
+        "url": "https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4"
        },
        {
         "id": 9400,
