@@ -24,18 +24,7 @@ Future<void> checkXtreamAccount(Credentials credentials) async {
     final info = await client.serverInformationData().timeout(
       const Duration(seconds: 20),
     );
-    final user = info.userInfo;
-    if (user.auth == false) {
-      throw const AuthFailure(AuthFailureType.unauthorized);
-    }
-    final status = user.status?.toLowerCase();
-    if (status != null && status != 'active') {
-      throw const AuthFailure(AuthFailureType.expiredAccount);
-    }
-    final expires = user.expDate;
-    if (expires != null && expires.isBefore(DateTime.now())) {
-      throw const AuthFailure(AuthFailureType.expiredAccount);
-    }
+    ensureAccountUsable(info.userInfo);
   } on AuthFailure {
     rethrow;
   } on TimeoutException {
@@ -50,5 +39,22 @@ Future<void> checkXtreamAccount(Credentials credentials) async {
     throw const AuthFailure(AuthFailureType.unknown);
   } finally {
     client.close();
+  }
+}
+
+/// Throws [AuthFailure] unless [user] describes an active, authenticated
+/// account. A response without `auth == true` (for example a captive portal
+/// or a non-Xtream endpoint answering 200) is rejected.
+void ensureAccountUsable(UserInfo user, {DateTime? now}) {
+  if (user.auth != true) {
+    throw const AuthFailure(AuthFailureType.unauthorized);
+  }
+  final status = user.status?.toLowerCase();
+  if (status != null && status != 'active') {
+    throw const AuthFailure(AuthFailureType.expiredAccount);
+  }
+  final expires = user.expDate;
+  if (expires != null && expires.isBefore(now ?? DateTime.now())) {
+    throw const AuthFailure(AuthFailureType.expiredAccount);
   }
 }

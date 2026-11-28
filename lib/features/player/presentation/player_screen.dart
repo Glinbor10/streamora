@@ -25,7 +25,12 @@ class PlayerScreen extends ConsumerStatefulWidget {
 }
 
 class _PlayerScreenState extends ConsumerState<PlayerScreen> {
-  late final Player _player = Player();
+  late final Player _player = Player(
+    configuration: const PlayerConfiguration(
+      // Xtream playback only needs http(s); drop file, udp, rtp and data.
+      protocolWhitelist: ['tcp', 'tls', 'http', 'https', 'crypto'],
+    ),
+  );
   late final VideoController _controller = VideoController(_player);
   late final ProgressRepository _repo = ref.read(progressRepositoryProvider);
   late final ProviderContainer _container = ProviderScope.containerOf(context);

@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';
+import 'package:streamora/app/session_cleanup.dart';
 import 'package:streamora/app/shell.dart';
 import 'package:streamora/features/auth/data/xtream_auth_repository.dart';
 import 'package:streamora/features/auth/presentation/auth_providers.dart';
@@ -23,6 +24,7 @@ Future<void> pumpDemo(WidgetTester tester, Size size) async {
   await tester.pumpWidget(
     ProviderScope(
       overrides: [
+        imageCacheClearerProvider.overrideWithValue(() async {}),
         progressRepositoryProvider.overrideWithValue(
           PrefsProgressRepository(
             reader: Future.value,

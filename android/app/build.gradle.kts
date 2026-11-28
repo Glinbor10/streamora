@@ -61,6 +61,16 @@ android {
     }
 }
 
+// Refuse to build a release with the debug key on CI (fail closed).
+gradle.taskGraph.whenReady {
+    val releaseRequested = allTasks.any { it.project == project && it.name.contains("Release") }
+    if (releaseRequested && System.getenv("CI") == "true" && !keystorePropertiesFile.exists()) {
+        throw GradleException(
+            "android/key.properties is missing in CI; refusing to sign a release with the debug key."
+        )
+    }
+}
+
 kotlin {
     compilerOptions {
         jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17

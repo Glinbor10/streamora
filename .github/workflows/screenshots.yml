@@ -9,6 +9,9 @@ on:
       - 'lib/**'
       - '.github/workflows/screenshots.yml'
 
+permissions:
+  contents: read
+
 jobs:
   render:
     runs-on: ubuntu-latest
