@@ -12,6 +12,9 @@ enum AuthFailureType {
   /// The account exists but is expired or disabled.
   expiredAccount,
 
+  /// The provider returned a server error (5xx).
+  serverError,
+
   /// Anything else.
   unknown,
 }
