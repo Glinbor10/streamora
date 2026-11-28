@@ -4,7 +4,7 @@
 Scenario: publish a version
 - Given main is green
 - When a tag v0.1.0 is pushed
-- Then a GitHub Release is created with streamora-android-v0.1.0.apk, streamora-windows-v0.1.0-setup.exe, streamora-windows-v0.1.0-portable.zip and generated notes
+- Then a GitHub Release is created with streamore-android-v0.1.0.apk, streamore-windows-v0.1.0-setup.exe, streamore-windows-v0.1.0-portable.zip and generated notes
 
 ## Requirement: Protected main
 Scenario: direct push

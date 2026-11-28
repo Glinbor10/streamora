@@ -46,7 +46,7 @@ Playback uses [media_kit](https://github.com/media-kit/media-kit) with libmpv (L
 
 ## Contact
 
-For privacy questions, contact the developer privately via **GitHub → Security tab → Report a vulnerability** at <https://github.com/Glinbor10/streamora>.
+For privacy questions, contact the developer privately via **GitHub → Security tab → Report a vulnerability** at <https://github.com/Glinbor10/streamore>.
 
 ## Changes
 
@@ -64,4 +64,4 @@ Updates to this policy will be published at this same URL.
 
 **Red:** la app solo se conecta al servidor que configuraste y a las URLs públicas de los videos de demostración de Blender Foundation. Algunos proveedores usan HTTP sin cifrar; en ese caso el tráfico hacia ese proveedor no está cifrado.
 
-**Contacto:** GitHub → pestaña Security → Report a vulnerability, en <https://github.com/Glinbor10/streamora>.
+**Contacto:** GitHub → pestaña Security → Report a vulnerability, en <https://github.com/Glinbor10/streamore>.

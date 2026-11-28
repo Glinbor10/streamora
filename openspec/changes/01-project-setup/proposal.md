@@ -1,7 +1,7 @@
 # 01-project-setup: proposal
 
 ## What
-Bootstrap the streamora repository: Flutter project (Android + Windows), layered architecture with automated enforcement, CI, tag-driven Release workflow, protected `main`.
+Bootstrap the Streamore repository: Flutter project (Android + Windows), layered architecture with automated enforcement, CI, tag-driven Release workflow, protected `main`.
 
 ## Why
 Portfolio-grade public project. Quality gates must exist before features so architecture and releases stay clean.

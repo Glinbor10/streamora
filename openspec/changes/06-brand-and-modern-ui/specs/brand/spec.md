@@ -8,7 +8,7 @@ Scenario: theme
 ## Requirement: App icon
 Scenario: launcher
 - Given a release build
-- Then the Android launcher and the Windows executable show the streamora play-wave icon
+- Then the Android launcher and the Windows executable show the Streamore play-wave icon
 
 Scenario: in-app logo
 - Given the login screen and the app bar
