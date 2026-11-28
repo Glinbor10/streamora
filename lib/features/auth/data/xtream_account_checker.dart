@@ -44,6 +44,10 @@ Future<void> checkXtreamAccount(
     throw const AuthFailure(AuthFailureType.network);
   } on RequestException catch (error) {
     _log('$error (status=${transport.lastStatusCode})');
+    if (transport.isBlockPage) {
+      _log('ISP/network block page detected');
+      throw const AuthFailure(AuthFailureType.blockedNetwork);
+    }
     throw AuthFailure(_typeForStatus(transport.lastStatusCode));
   } on Object catch (error) {
     _log('${error.runtimeType}: $error');
@@ -107,13 +111,44 @@ class _StatusCapturingClient extends http.BaseClient {
 
   Uri? lastUri;
   int? lastStatusCode;
+  String? lastContentType;
+  List<int>? lastBody;
+
+  /// True when the response was an ISP/network block page rather than a
+  /// normal Xtream JSON response.
+  bool get isBlockPage {
+    final type = lastContentType?.toLowerCase() ?? '';
+    if (!type.contains('html') && !type.contains('text/plain')) return false;
+    final body = lastBody == null ? '' : String.fromCharCodes(lastBody!);
+    final lower = body.toLowerCase();
+    return lower.contains('<html') ||
+        lower.contains('acceso denegado') ||
+        lower.contains('contenido bloqueado');
+  }
 
   @override
   Future<http.StreamedResponse> send(http.BaseRequest request) async {
     lastUri = request.url;
     final response = await _inner.send(request);
     lastStatusCode = response.statusCode;
-    return response;
+    lastContentType = response.headers['content-type'];
+    if (response.statusCode == 200) return response;
+
+    // Buffer error bodies so we can tell a real Xtream error from an ISP
+    // block page. The buffered bytes are passed on unchanged.
+    final chunks = await response.stream.toList();
+    final bytes = chunks.expand((chunk) => chunk).toList(growable: false);
+    lastBody = bytes;
+    return http.StreamedResponse(
+      Stream.value(bytes),
+      response.statusCode,
+      contentLength: bytes.length,
+      request: response.request,
+      headers: response.headers,
+      isRedirect: response.isRedirect,
+      persistentConnection: response.persistentConnection,
+      reasonPhrase: response.reasonPhrase,
+    );
   }
 
   @override

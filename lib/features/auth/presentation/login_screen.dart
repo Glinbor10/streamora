@@ -58,6 +58,8 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     AuthFailureType.expiredAccount => 'This account is expired or disabled.',
     AuthFailureType.serverError =>
       'The provider returned an error. Try again later.',
+    AuthFailureType.blockedNetwork =>
+      'This provider is blocked from your current network.',
     AuthFailureType.unknown => 'Something went wrong. Please try again.',
   };
 

@@ -18,8 +18,14 @@ const _rejectedBody = '{"user_info":{"auth":false},"server_info":{}}';
 Matcher _failure(AuthFailureType type) =>
     throwsA(isA<AuthFailure>().having((f) => f.type, 'type', type));
 
-Future<void> _checkWith(int statusCode, String body) {
-  final client = MockClient((request) async => http.Response(body, statusCode));
+Future<void> _checkWith(
+  int statusCode,
+  String body, {
+  Map<String, String> headers = const {},
+}) {
+  final client = MockClient(
+    (request) async => http.Response(body, statusCode, headers: headers),
+  );
   return checkXtreamAccount(_credentials, httpClient: client);
 }
 
@@ -57,6 +63,18 @@ void main() {
     await expectLater(
       _checkWith(500, 'Server error'),
       _failure(AuthFailureType.serverError),
+    );
+  });
+
+  test('detects an ISP block page instead of blaming the credentials',
+      () async {
+    await expectLater(
+      _checkWith(
+        403,
+        '<html><h1>Acceso Denegado</h1></html>',
+        headers: const {'content-type': 'text/html'},
+      ),
+      _failure(AuthFailureType.blockedNetwork),
     );
   });
 }
