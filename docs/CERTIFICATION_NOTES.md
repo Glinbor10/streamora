@@ -21,6 +21,6 @@ The app only connects to an Xtream server **explicitly entered by the user**. No
 - `runFullTrust` is required because playback uses the Win32 `media_kit`/libmpv engine and credentials use the Windows Credential Manager.
 - Some Xtream providers only offer plain HTTP; the app allows the user to configure such a server. Traffic goes directly to the server the user chose.
 
-Privacy policy: <https://raw.githubusercontent.com/Glinbor10/streamora/main/docs/PRIVACY.md>
+Privacy policy: <https://raw.githubusercontent.com/Glinbor10/streamore/main/docs/PRIVACY.md>
 
-Contact: GitHub → Security tab → Report a vulnerability, <https://github.com/Glinbor10/streamora>.
+Contact: GitHub → Security tab → Report a vulnerability, <https://github.com/Glinbor10/streamore>.

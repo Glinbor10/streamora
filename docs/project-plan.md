@@ -1,4 +1,4 @@
-# Plan: streamora — OTT Player (Android móvil + Windows)
+# Plan: Streamore — OTT Player (Android móvil + Windows)
 
 ## Protocolo Obligatorio antes de escribir código (OpenSpec / SDD)
 **REGLA CRÍTICA:** Tienes estrictamente prohibido escribir código de aplicación (`lib/`, `test/`, `android/`, `windows/`) o ejecutar comandos de creación/instalación sin haber completado antes estos 3 pasos con el usuario:
@@ -34,13 +34,13 @@ App reproductora OTT genérica con estética tipo Netflix para **Android móvil*
   - **Películas (VOD):** *Hero Banner* destacado con degradado oscuro + filas horizontales por género con carátulas 2:3. Al pulsar abre ficha de detalle con sinopsis y botón Play/Reanudar.
   - **Series:** Catálogo con carátulas 2:3 + ficha de serie con selector de temporadas y listado de episodios en tarjetas 16:9 con barra de progreso y salto al siguiente episodio.
 - **Alcance fuera del MVP:** Android TV / D-Pad, guía EPG compleja, favoritos, descargas offline y multi-perfil.
-- **Convenciones:** Nombre de proyecto `streamora`, carpeta `C:\Users\glinares\Desktop\streamora`, repo inicial **privado**, código y commits en inglés, sin atribución a IA en los mensajes de commit.
+- **Convenciones:** Nombre de proyecto `Streamore`, carpeta `C:\Users\glinares\Desktop\streamora`, repo inicial **privado**, código y commits en inglés, sin atribución a IA en los mensajes de commit.
 
 ## Reglas técnicas obligatorias (evitar errores conocidos)
 1. **User-Agent en peticiones y vídeo:** Muchos servidores Xtream bloquean el `User-Agent` por defecto de Dart (`Dart/3.x (dart:io)`). Configurar un `User-Agent` estándar de reproductor (ej. `IPTVSmartersPlayer` o `Lavf/60.16.100`) tanto en la inicialización del cliente HTTP como en las `httpHeaders` al abrir cada `Media` en `media_kit`.
 2. **Scroll con ratón en Windows:** Envolver `MaterialApp` en un `ScrollConfiguration` personalizado que habilite `PointerDeviceKind.mouse` y `PointerDeviceKind.touch` para que las filas horizontales de carátulas se puedan arrastrar y desplazar cómodamente en Windows.
 3. **Rendimiento en listas grandes:** Los catálogos Xtream superan los 10.000 elementos. Usar siempre `ListView.builder` / `GridView.builder` con `cacheExtent` acotado y filtrado por categoría en memoria sin reconstruir toda la pantalla.
-4. **Empaquetado Windows completo:** En Windows, `flutter build windows --release` genera `streamora.exe` junto a varias `.dll` obligatorias (`flutter_windows.dll`, `mpv-2.dll`, etc.). Para las Releases, empaquetar toda la carpeta `build\windows\x64\runner\Release\` en un instalador único **`streamora-windows-setup.exe`** (mediante Inno Setup en CI) y/o un `.zip` portable para que el `.exe` nunca falle por DLLs faltantes.
+4. **Empaquetado Windows completo:** En Windows, `flutter build windows --release` genera `streamora.exe` junto a varias `.dll` obligatorias (`flutter_windows.dll`, `mpv-2.dll`, etc.). Para las Releases, empaquetar toda la carpeta `build\windows\x64\runner\Release\` en un instalador único **`streamore-windows-setup.exe`** (mediante Inno Setup en CI) y/o un `.zip` portable para que el `.exe` nunca falle por DLLs faltantes.
 
 ## Fases de desarrollo (1 PR por fase, precedida siempre por OpenSpec)
 - **Fase 1 — Base, OpenSpec inicial y CI:**
@@ -60,7 +60,7 @@ App reproductora OTT genérica con estética tipo Netflix para **Android móvil*
   - *Implementación:* Pantalla de reproducción para directos (`.ts`/`.m3u8`) y VOD (`.mp4`/`.mkv`), controles nativos de móvil/escritorio y reanudación automática.
 - **Fase 6 — Releases (APK + EXE) y publicación en LinkedIn:**
   - *OpenSpec (`06-releases-and-launch`):* Definir estrategia de firmado Android, empaquetado Inno Setup para Windows, checklist de auditoría de seguridad y estructura del README.
-  - *Implementación:* Workflow de **GitHub Releases** (disparado por tags `v*`) que publique `streamora-android-vX.Y.Z.apk`, `streamora-windows-vX.Y.Z-setup.exe` y `streamora-windows-vX.Y.Z-portable.zip`, README en inglés con capturas del Modo Demo y auditoría de historial Git antes de hacer público el repositorio.
+  - *Implementación:* Workflow de **GitHub Releases** (disparado por tags `v*`) que publique `streamore-android-vX.Y.Z.apk`, `streamore-windows-vX.Y.Z-setup.exe` y `streamore-windows-vX.Y.Z-portable.zip`, README en inglés con capturas del Modo Demo y auditoría de historial Git antes de hacer público el repositorio.
 
 ## Reglas de seguridad y auditoría
 - **Prohibido** escribir URLs reales de servidores IPTV, usuarios, contraseñas o keystores privados en el código, especificaciones OpenSpec, fixtures de test, ISSUES, PRs o capturas de pantalla.
