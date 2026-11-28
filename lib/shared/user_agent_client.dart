@@ -1,8 +1,9 @@
 import 'package:http/http.dart' as http;
 
-/// Many Xtream servers block the default Dart User-Agent, so every request
-/// presents a standard player User-Agent instead.
-const xtreamUserAgent = 'IPTVSmartersPlayer';
+/// Some Xtream providers block the default Dart User-Agent, while others block
+/// the generic player User-Agent. Official Android players use OkHttp, so we
+/// present the same User-Agent to avoid both kinds of block page.
+const xtreamUserAgent = 'okhttp/4.12.0';
 
 /// HTTP client that always sends [xtreamUserAgent].
 class UserAgentClient extends http.BaseClient {
