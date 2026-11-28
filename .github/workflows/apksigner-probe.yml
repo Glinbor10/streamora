@@ -1,0 +1,24 @@
+name: apksigner probe (temporary)
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/apksigner-probe.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download a published APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download v0.5.1 -R "$GITHUB_REPOSITORY" -p 'streamora-android-arm64-*' -D .
+      - name: Show apksigner raw output
+        run: |
+          ls "$ANDROID_HOME"/build-tools
+          APKSIGNER=$(ls "$ANDROID_HOME"/build-tools/*/apksigner | sort -V | tail -1)
+          echo "using $APKSIGNER"
+          "$APKSIGNER" verify --print-certs --verbose streamora-android-arm64-*.apk || true
