@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:streamora/features/auth/domain/auth_failure.dart';
 import 'package:streamora/features/auth/domain/credentials.dart';
@@ -13,18 +14,26 @@ import 'package:xtream_code_client/xtream_code_client.dart';
 typedef AccountChecker = Future<void> Function(Credentials credentials);
 
 /// Default [AccountChecker] using `xtream_code_client`.
-Future<void> checkXtreamAccount(Credentials credentials) async {
+///
+/// An [httpClient] can be injected for tests. Debug builds print a sanitized
+/// diagnostic to the Flutter console; credentials are never logged.
+Future<void> checkXtreamAccount(
+  Credentials credentials, {
+  http.Client? httpClient,
+}) async {
+  final transport = _StatusCapturingClient(httpClient ?? UserAgentClient());
   final client = XtreamClient(
     url: credentials.server,
     username: credentials.username,
     password: credentials.password,
-    httpClient: UserAgentClient(),
+    httpClient: transport,
   );
   try {
-    final info = await client.serverInformationData().timeout(
+    final result = await client.serverInformation().timeout(
       const Duration(seconds: 20),
     );
-    ensureAccountUsable(info.userInfo);
+    _log('status=${transport.lastStatusCode}');
+    ensureAccountUsable(result.data.userInfo);
   } on AuthFailure {
     rethrow;
   } on TimeoutException {
@@ -33,12 +42,19 @@ Future<void> checkXtreamAccount(Credentials credentials) async {
     throw const AuthFailure(AuthFailureType.network);
   } on http.ClientException {
     throw const AuthFailure(AuthFailureType.network);
-  } on RequestException {
-    throw const AuthFailure(AuthFailureType.unauthorized);
-  } on Object {
+  } on RequestException catch (error) {
+    _log('$error (status=${transport.lastStatusCode})');
+    if (transport.isBlockPage) {
+      _log('ISP/network block page detected');
+      throw const AuthFailure(AuthFailureType.blockedNetwork);
+    }
+    throw AuthFailure(_typeForStatus(transport.lastStatusCode));
+  } on Object catch (error) {
+    _log('${error.runtimeType}: $error');
     throw const AuthFailure(AuthFailureType.unknown);
   } finally {
     client.close();
+    _logRequest(transport.lastUri, transport.lastStatusCode);
   }
 }
 
@@ -57,4 +73,84 @@ void ensureAccountUsable(UserInfo user, {DateTime? now}) {
   if (expires != null && expires.isBefore(now ?? DateTime.now())) {
     throw const AuthFailure(AuthFailureType.expiredAccount);
   }
+}
+
+/// Maps the HTTP status of the failed request to a user-facing failure.
+///
+/// A 404 usually means the entered server address already contains a path
+/// such as `/player_api.php`, which the client would append a second time.
+AuthFailureType _typeForStatus(int? status) {
+  if (status == 401 || status == 403) return AuthFailureType.unauthorized;
+  if (status == 404) return AuthFailureType.invalidUrl;
+  if (status != null && status >= 500) return AuthFailureType.serverError;
+  return AuthFailureType.unknown;
+}
+
+void _log(String message) {
+  if (kDebugMode) debugPrint('[Streamore auth] $message');
+}
+
+void _logRequest(Uri? uri, int? status) {
+  if (!kDebugMode || uri == null) return;
+  // Drop the query string: it contains the username and password.
+  final safe = Uri(
+    scheme: uri.scheme,
+    host: uri.host,
+    port: uri.port,
+    path: uri.path,
+  );
+  _log('GET $safe -> ${status ?? 'no response'}');
+}
+
+/// Records the status code of the underlying request without changing the
+/// response seen by `xtream_code_client`.
+class _StatusCapturingClient extends http.BaseClient {
+  new(this._inner);
+
+  final http.Client _inner;
+
+  Uri? lastUri;
+  int? lastStatusCode;
+  String? lastContentType;
+  List<int>? lastBody;
+
+  /// True when the response was an ISP/network block page rather than a
+  /// normal Xtream JSON response.
+  bool get isBlockPage {
+    final type = lastContentType?.toLowerCase() ?? '';
+    if (!type.contains('html') && !type.contains('text/plain')) return false;
+    final body = lastBody == null ? '' : String.fromCharCodes(lastBody!);
+    final lower = body.toLowerCase();
+    return lower.contains('<html') ||
+        lower.contains('acceso denegado') ||
+        lower.contains('contenido bloqueado');
+  }
+
+  @override
+  Future<http.StreamedResponse> send(http.BaseRequest request) async {
+    lastUri = request.url;
+    final response = await _inner.send(request);
+    lastStatusCode = response.statusCode;
+    lastContentType = response.headers['content-type'];
+    if (response.statusCode == 200) return response;
+
+    // Buffer error bodies so we can tell a real Xtream error from an ISP
+    // block page. The buffered bytes are passed on unchanged.
+    final chunks = await response.stream.toList();
+    final bytes = chunks.expand((chunk) => chunk).toList(growable: false);
+    lastBody = bytes;
+    return http.StreamedResponse(
+      Stream.value(bytes),
+      response.statusCode,
+      contentLength: bytes.length,
+      request: response.request,
+      headers: response.headers,
+      isRedirect: response.isRedirect,
+      persistentConnection: response.persistentConnection,
+      reasonPhrase: response.reasonPhrase,
+    );
+  }
+
+  @override
+  void close() => _inner.close();
 }

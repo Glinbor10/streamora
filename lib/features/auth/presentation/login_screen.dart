@@ -56,6 +56,10 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
       'Could not reach the server. Check your connection and try again.',
     AuthFailureType.unauthorized => 'Invalid username or password.',
     AuthFailureType.expiredAccount => 'This account is expired or disabled.',
+    AuthFailureType.serverError =>
+      'The provider returned an error. Try again later.',
+    AuthFailureType.blockedNetwork =>
+      'This provider is blocked from your current network.',
     AuthFailureType.unknown => 'Something went wrong. Please try again.',
   };
 
