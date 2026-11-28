@@ -16,9 +16,20 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release download v0.5.1 -R "$GITHUB_REPOSITORY" -p 'streamora-android-arm64-*' -D .
-      - name: Show apksigner raw output
+      - name: Same logic as release.yml (must pass)
+        env:
+          EXPECTED_CERT_SHA256: c2138dc8bc2a5e929e12991e6e8e0b7130d879c85a4fc6dbcd0916c8e24b32aa
         run: |
-          ls "$ANDROID_HOME"/build-tools
+          set -euo pipefail
           APKSIGNER=$(ls "$ANDROID_HOME"/build-tools/*/apksigner | sort -V | tail -1)
-          echo "using $APKSIGNER"
-          "$APKSIGNER" verify --print-certs --verbose streamora-android-arm64-*.apk || true
+          for apk in streamora-android-*.apk; do
+            digests=$("$APKSIGNER" verify --print-certs --verbose "$apk" 2>/dev/null | sed -n 's/.*certificate SHA-256 digest: //p' | tr -d '' | sort -u)
+            echo "$apk signer digest(s): $digests"
+            [ "$digests" = "$EXPECTED_CERT_SHA256" ]
+          done
+      - name: Wrong expected digest must fail
+        run: |
+          set -euo pipefail
+          APKSIGNER=$(ls "$ANDROID_HOME"/build-tools/*/apksigner | sort -V | tail -1)
+          digests=$("$APKSIGNER" verify --print-certs --verbose streamora-android-arm64-*.apk 2>/dev/null | sed -n 's/.*certificate SHA-256 digest: //p' | tr -d '' | sort -u)
+          [ "$digests" != "0000000000000000000000000000000000000000000000000000000000000000" ]
