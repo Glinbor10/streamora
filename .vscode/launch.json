@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Streamora · Windows (debug)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "deviceId": "windows",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Streamora · Windows (profile)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "deviceId": "windows",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "Streamora · Windows (release)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "deviceId": "windows",
+      "flutterMode": "release"
+    }
+  ]
+}
