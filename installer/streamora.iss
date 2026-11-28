@@ -6,12 +6,12 @@
 #endif
 
 [Setup]
-AppName=streamora
+AppName=Streamore
 AppVersion={#AppVersion}
-DefaultDirName={autopf}\streamora
-DefaultGroupName=streamora
+DefaultDirName={autopf}\Streamore
+DefaultGroupName=Streamore
 OutputDir=..
-OutputBaseFilename=streamora-windows-{#Tag}-setup
+OutputBaseFilename=streamore-windows-{#Tag}-setup
 SetupIconFile=..\windows\runner\resources\app_icon.ico
 Compression=lzma2
 SolidCompression=yes
@@ -21,11 +21,11 @@ ArchitecturesInstallIn64BitMode=x64compatible
 Source: "..\build\windows\x64\runner\Release\*"; DestDir: "{app}"; Flags: recursesubdirs ignoreversion
 
 [Icons]
-Name: "{group}\streamora"; Filename: "{app}\streamora.exe"
-Name: "{autodesktop}\streamora"; Filename: "{app}\streamora.exe"; Tasks: desktopicon
+Name: "{group}\Streamore"; Filename: "{app}\streamora.exe"
+Name: "{autodesktop}\Streamore"; Filename: "{app}\streamora.exe"; Tasks: desktopicon
 
 [Tasks]
 Name: "desktopicon"; Description: "Create a desktop icon"
 
 [Run]
-Filename: "{app}\streamora.exe"; Description: "Launch streamora"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\streamora.exe"; Description: "Launch Streamore"; Flags: nowait postinstall skipifsilent

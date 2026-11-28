@@ -95,7 +95,7 @@ class _AdaptiveShellState extends ConsumerState<AdaptiveShell> {
             StreamoraLogo(size: 30),
             SizedBox(width: 8),
             Text(
-              'streamora',
+              'Streamore',
               style: TextStyle(
                 color: AppColors.text,
                 fontWeight: FontWeight.w800,

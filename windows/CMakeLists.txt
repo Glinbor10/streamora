@@ -10,6 +10,14 @@ set(BINARY_NAME "streamora")
 # versions of CMake.
 cmake_policy(VERSION 3.14...3.25)
 
+# media_kit_libs_windows_video omits PRE_BUILD/PRE_LINK/POST_BUILD in two
+# add_custom_command() calls. Keep the backward-compatible behavior (POST_BUILD)
+# for that plugin until upstream fixes it; subprojects reset policies via
+# cmake_minimum_required(), so this must be set before add_subdirectory().
+if(POLICY CMP0175)
+  set(CMAKE_POLICY_DEFAULT_CMP0175 OLD)
+endif()
+
 # Define build configuration option.
 get_property(IS_MULTICONFIG GLOBAL PROPERTY GENERATOR_IS_MULTI_CONFIG)
 if(IS_MULTICONFIG)

@@ -1,7 +1,7 @@
 import 'package:material_ui/material_ui.dart';
 import 'package:streamora/shared/theme/app_theme.dart';
 
-/// The streamora symbol: a rounded play triangle crossed by two waves.
+/// The Streamore symbol: a rounded play triangle crossed by two waves.
 class StreamoraLogo extends StatelessWidget {
   /// Creates the logo at [size] logical pixels.
   const new({

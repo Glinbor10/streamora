@@ -25,7 +25,7 @@ class AppScrollBehavior extends MaterialScrollBehavior {
   };
 }
 
-/// Root widget of the streamora application.
+/// Root widget of the Streamore application.
 class StreamoraApp extends ConsumerWidget {
   /// Creates the root widget.
   const new({super.key});
@@ -33,7 +33,7 @@ class StreamoraApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp.router(
-      title: 'streamora',
+      title: 'Streamore',
       debugShowCheckedModeBanner: false,
       scrollBehavior: const AppScrollBehavior(),
       routerConfig: ref.watch(routerProvider),

@@ -1,6 +1,6 @@
 import 'package:material_ui/material_ui.dart';
 
-/// Visual identity of streamora: navy blue surfaces with an electric cyan
+/// Visual identity of Streamore: navy blue surfaces with an electric cyan
 /// accent.
 abstract final class AppColors {
   /// App background.

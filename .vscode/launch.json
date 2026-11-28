@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Streamore · Windows (debug)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "deviceId": "windows",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Streamore · Windows (profile)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "deviceId": "windows",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "Streamore · Windows (release)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "deviceId": "windows",
+      "flutterMode": "release"
+    }
+  ]
+}
